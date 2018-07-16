@@ -32,6 +32,11 @@ ImageIcon imageIcon = fa.getIcon("check");
 
 # Import Instructions
 
+Use the importer to import new versions of Font Awesome, or import Font Awesome Pro.
+
+**Important:** If you're importing Font Awesome Pro, this import script will need to be ran almost every time you update
+this project from the git, as this repo will be kept up to date with the latest free version.
+
 The importer uses git submodules and a node.js script to process the import. 
 
 1. Check out submodule for desired version of Font Awesome
