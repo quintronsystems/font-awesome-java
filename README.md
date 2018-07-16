@@ -38,7 +38,7 @@ ImageIcon imageIcon = fa.getIcon("check");
 1. Import the jar OR this project into your project.
 
 ### Jar
-#### [Download the latest free jar](dist/Font_Awesome.jar)
+#### [Download the latest free jar](dist/font-awesome.jar)
 
 Include this jar into your project as a library
 
