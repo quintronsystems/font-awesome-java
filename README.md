@@ -2,8 +2,7 @@ Font Awesome Java
 ===
 Version: 1.0.0
 
-Example Usage
----
+## Example Usage
 ```java
 
 // Turn on Anti-Aliasing
@@ -30,7 +29,20 @@ ImageIcon imageIcon = fa.getIcon("check");
 
 ```
 
-# Import Instructions
+## How to use
+### Project
+1. clone this repo
+1. Open this project in your IDE of choice.  Settings for NetBeans and Intellij are included.
+1. (Optional) run the import script for Font-Awesome-Pro
+1. Build the jar
+1. Import the jar OR this project into your project.
+
+### Jar
+#### [Download the latest free jar](dist/Font_Awesome.jar)
+
+Include this jar into your project as a library
+
+## Import Instructions
 
 Use the importer to import new versions of Font Awesome, or import Font Awesome Pro.
 
