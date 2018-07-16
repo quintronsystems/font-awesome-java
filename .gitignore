@@ -1,0 +1,9 @@
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+Logs/
+.svn/
+node_modules/

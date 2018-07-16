@@ -1,0 +1,18 @@
+{
+  "name": "fontawesome-importer",
+  "version": "1.0.0",
+  "description": "Imports FontAwesome code to Java Project",
+  "main": "import.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Flynn",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "prompt": "^1.0.0"
+  }
+}
