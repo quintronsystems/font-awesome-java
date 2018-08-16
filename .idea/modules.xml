@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/font-awesome.iml" filepath="$PROJECT_DIR$/font-awesome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/font-awesome-github.iml" filepath="$PROJECT_DIR$/src/font-awesome-github.iml" />
     </modules>
   </component>
 </project>

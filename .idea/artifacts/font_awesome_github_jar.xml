@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="font-awesome:jar">
+  <artifact type="jar" build-on-make="true" name="font-awesome-github:jar">
     <output-path>$PROJECT_DIR$/dist</output-path>
     <root id="archive" name="font-awesome.jar">
-      <element id="module-output" name="font-awesome" />
+      <element id="module-output" name="font-awesome-github" />
     </root>
   </artifact>
 </component>
