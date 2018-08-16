@@ -3,12 +3,12 @@
  * Author: Mike Flynn
  **/
 
-var prompt = require("prompt");
-var pro = false;
-var importFolder = "Font-Awesome";
-var version = 5;
-var icons;
-var fs;
+let prompt = require("prompt");
+let pro = false;
+let importFolder = "Font-Awesome";
+let version = 5;
+let icons;
+let fs;
 
 prompt.start();
 
@@ -25,7 +25,7 @@ prompt.get([{
     console.log("Using Pro Version");
     pro = true;
     importFolder = "Font-Awesome-Pro";
-    var info = require(`./${importFolder}/package.json`);
+    let info = require(`./${importFolder}/package.json`);
     version = info.version;
     runImport();
   }
@@ -33,9 +33,11 @@ prompt.get([{
     console.log("Using Free Version");
     prompt.get(["Version"], (err, res) => {
       version = res.version;
-      runImport();
+      runImport();      
     });
   }
+
+
 
 });
 
@@ -71,23 +73,28 @@ var runImport = function() {
       });
   }
 
-  var strongs   = [];
-  var regulars  = [];
-  var lights    = [];
-  var brands    = [];
+  let strongs   = [];
+  let regulars  = [];
+  let lights    = [];
+  let brands    = [];
+  let all       = {};
 
-  var output = `
+  let output = `
   package com.quintron.FontAwesome;
 
-  import java.lang.reflect.Field;
   import java.util.Arrays;
   import java.util.ArrayList;
+  import java.util.HashMap;
 
+  @SuppressWarnings("ALL")
   public class FontAwesomeIcons {`;
-  for(var k in icons){
-      var v = icons[k].unicode;
-      name = k.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); }).replace("-", "").replace(/^(\d)/g, function(g){ return "_" + g[0]; });
-      for(var style of icons[k].styles){
+    for(let k in icons){
+      let v = icons[k].unicode;
+      let name = k.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); }).replace("-", "").replace(/^(\d)/g, function(g){ return "_" + g[0]; });
+      all[k] = `\\u${v}`;
+      for(let style of icons[k].styles){
+
+
           switch (style) {
               case "brands" :
                   brands.push(name);
@@ -108,36 +115,34 @@ var runImport = function() {
   }
 
   output += `
+      private HashMap<String, String> allIcons = new HashMap<>();
+      public FontAwesomeIcons(){`;
+  for(let s in all){
+      output += `
+        allIcons.put("${s}","${all[s]}");`;
+  }
+  output += `
+      } 
+  `;
+
+  output += `
       public static ArrayList<String> solidIcons = new ArrayList<String>(Arrays.asList(`;
-  for(var s of strongs) output += `${s == strongs[0] ? "" : ","}"${s}"`;
+  for(let s of strongs) output += `${s == strongs[0] ? "" : ","}"${s}"`;
   output += `));
       public static ArrayList<String> regularIcons = new ArrayList<String>(Arrays.asList(`;
-  for(var s of regulars) output += `${s == regulars[0] ? "" : ","}"${s}"`;
+  for(let s of regulars) output += `${s == regulars[0] ? "" : ","}"${s}"`;
   output += `));
       public static ArrayList<String> lightIcons = new ArrayList<String>(Arrays.asList(`;
-  for(var s of lights) output += `${s == lights[0] ? "" : ","}"${s}"`;
+  for(let s of lights) output += `${s == lights[0] ? "" : ","}"${s}"`;
   output += `));
       public static ArrayList<String> brandIcons = new ArrayList<String>(Arrays.asList(`;
-  for(var s of brands) output += `${s == brands[0] ? "" : ","}"${s}"`;
+  for(let s of brands) output += `${s == brands[0] ? "" : ","}"${s}"`;
   output += `));
       public static boolean pro = ${pro ? "true" : "false"};
       public static String version = "${version}";
       public String get(String name){
-          try {
-              StringBuffer newName = new StringBuffer();
-              for(String s : name.split("-")){
-                  if(newName.length() == 0) newName.append(s);
-                  else {
-                      newName.append(Character.toUpperCase(s.charAt(0)));
-                      if (s.length() > 1) newName.append(s.substring(1, s.length()).toLowerCase());
-                  }
-              }
-              name = newName.toString();
-              if(name.matches("^[0-9].*")) name = "_" + name;
-              Field f = FontAwesomeIcons.class.getField(name);
-              return (String) f.get(FontAwesomeIcons.class);
-          }
-          catch( Exception e){ return questionCircle; }
+        if(!allIcons.containsKey(name)) return questionCircle;
+        return allIcons.get(name);
       }
   `;
   output += "\n}";
