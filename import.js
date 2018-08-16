@@ -1,6 +1,5 @@
 /**
  * Generates FontAwesomeIcons.java from the data in icons.json in a FontAwesome release
- * Place in the advanced-options/metadata folder and run with `node strip.js`
  * Author: Mike Flynn
  **/
 
@@ -34,11 +33,9 @@ prompt.get([{
     console.log("Using Free Version");
     prompt.get(["Version"], (err, res) => {
       version = res.version;
-      runImport();      
+      runImport();
     });
   }
-
-
 
 });
 

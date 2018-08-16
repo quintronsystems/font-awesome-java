@@ -15,6 +15,7 @@
       public static String adn = "\uf170";
       public static String adversal = "\uf36a";
       public static String affiliatetheme = "\uf36b";
+      public static String airFreshener = "\uf5d0";
       public static String algolia = "\uf36c";
       public static String alignCenter = "\uf037";
       public static String alignJustify = "\uf039";
@@ -44,6 +45,7 @@
       public static String appStoreIos = "\uf370";
       public static String apper = "\uf371";
       public static String apple = "\uf179";
+      public static String appleAlt = "\uf5d1";
       public static String applePay = "\uf415";
       public static String archive = "\uf187";
       public static String archway = "\uf557";
@@ -67,6 +69,7 @@
       public static String asymmetrik = "\uf372";
       public static String at = "\uf1fa";
       public static String atlas = "\uf558";
+      public static String atom = "\uf5d2";
       public static String audible = "\uf373";
       public static String audioDescription = "\uf29e";
       public static String autoprefixer = "\uf41c";
@@ -115,15 +118,18 @@
       public static String bold = "\uf032";
       public static String bolt = "\uf0e7";
       public static String bomb = "\uf1e2";
+      public static String bone = "\uf5d7";
       public static String bong = "\uf55c";
       public static String book = "\uf02d";
       public static String bookOpen = "\uf518";
+      public static String bookReader = "\uf5da";
       public static String bookmark = "\uf02e";
       public static String bowlingBall = "\uf436";
       public static String box = "\uf466";
       public static String boxOpen = "\uf49e";
       public static String boxes = "\uf468";
       public static String braille = "\uf2a1";
+      public static String brain = "\uf5dc";
       public static String briefcase = "\uf0b1";
       public static String briefcaseMedical = "\uf469";
       public static String broadcastTower = "\uf519";
@@ -151,6 +157,10 @@
       public static String cannabis = "\uf55f";
       public static String capsules = "\uf46b";
       public static String car = "\uf1b9";
+      public static String carAlt = "\uf5de";
+      public static String carBattery = "\uf5df";
+      public static String carCrash = "\uf5e1";
+      public static String carSide = "\uf5e4";
       public static String caretDown = "\uf0d7";
       public static String caretLeft = "\uf0d9";
       public static String caretRight = "\uf0da";
@@ -175,6 +185,7 @@
       public static String certificate = "\uf0a3";
       public static String chalkboard = "\uf51b";
       public static String chalkboardTeacher = "\uf51c";
+      public static String chargingStation = "\uf5e7";
       public static String chartArea = "\uf1fe";
       public static String chartBar = "\uf080";
       public static String chartLine = "\uf201";
@@ -288,6 +299,7 @@
       public static String digg = "\uf1a6";
       public static String digitalOcean = "\uf391";
       public static String digitalTachograph = "\uf566";
+      public static String directions = "\uf5eb";
       public static String discord = "\uf392";
       public static String discourse = "\uf393";
       public static String divide = "\uf529";
@@ -306,6 +318,7 @@
       public static String download = "\uf019";
       public static String draft2digital = "\uf396";
       public static String draftingCompass = "\uf568";
+      public static String drawPolygon = "\uf5ee";
       public static String dribbble = "\uf17d";
       public static String dribbbleSquare = "\uf397";
       public static String dropbox = "\uf16b";
@@ -322,6 +335,7 @@
       public static String elementor = "\uf430";
       public static String ellipsisH = "\uf141";
       public static String ellipsisV = "\uf142";
+      public static String ello = "\uf5f1";
       public static String ember = "\uf423";
       public static String empire = "\uf1d1";
       public static String envelope = "\uf0e0";
@@ -487,6 +501,7 @@
       public static String hSquare = "\uf0fd";
       public static String hackerNews = "\uf1d4";
       public static String hackerNewsSquare = "\uf3af";
+      public static String hackerrank = "\uf5f7";
       public static String handHolding = "\uf4bd";
       public static String handHoldingHeart = "\uf4be";
       public static String handHoldingUsd = "\uf4c0";
@@ -562,6 +577,7 @@
       public static String js = "\uf3b8";
       public static String jsSquare = "\uf3b9";
       public static String jsfiddle = "\uf1cc";
+      public static String kaggle = "\uf5fa";
       public static String key = "\uf084";
       public static String keybase = "\uf4f5";
       public static String keyboard = "\uf11c";
@@ -575,6 +591,7 @@
       public static String korvue = "\uf42f";
       public static String language = "\uf1ab";
       public static String laptop = "\uf109";
+      public static String laptopCode = "\uf5fc";
       public static String laravel = "\uf3bd";
       public static String lastfm = "\uf202";
       public static String lastfmSquare = "\uf203";
@@ -582,6 +599,7 @@
       public static String laughBeam = "\uf59a";
       public static String laughSquint = "\uf59b";
       public static String laughWink = "\uf59c";
+      public static String layerGroup = "\uf5fd";
       public static String leaf = "\uf06c";
       public static String leanpub = "\uf212";
       public static String lemon = "\uf094";
@@ -626,6 +644,7 @@
       public static String mapMarkerAlt = "\uf3c5";
       public static String mapPin = "\uf276";
       public static String mapSigns = "\uf277";
+      public static String markdown = "\uf60f";
       public static String marker = "\uf5a1";
       public static String mars = "\uf222";
       public static String marsDouble = "\uf227";
@@ -652,6 +671,7 @@
       public static String microphoneAlt = "\uf3c9";
       public static String microphoneAltSlash = "\uf539";
       public static String microphoneSlash = "\uf131";
+      public static String microscope = "\uf610";
       public static String microsoft = "\uf3ca";
       public static String minus = "\uf068";
       public static String minusCircle = "\uf056";
@@ -676,6 +696,7 @@
       public static String mousePointer = "\uf245";
       public static String music = "\uf001";
       public static String napster = "\uf3d2";
+      public static String neos = "\uf612";
       public static String neuter = "\uf22c";
       public static String newspaper = "\uf1ea";
       public static String nimblr = "\uf5a8";
@@ -691,6 +712,7 @@
       public static String objectUngroup = "\uf248";
       public static String odnoklassniki = "\uf263";
       public static String odnoklassnikiSquare = "\uf264";
+      public static String oilCan = "\uf613";
       public static String oldRepublic = "\uf510";
       public static String opencart = "\uf23d";
       public static String openid = "\uf19b";
@@ -757,6 +779,7 @@
       public static String plusSquare = "\uf0fe";
       public static String podcast = "\uf2ce";
       public static String poo = "\uf2fe";
+      public static String poop = "\uf619";
       public static String portrait = "\uf3e0";
       public static String poundSign = "\uf154";
       public static String powerOff = "\uf011";
@@ -802,12 +825,14 @@
       public static String researchgate = "\uf4f8";
       public static String resolving = "\uf3e7";
       public static String retweet = "\uf079";
+      public static String rev = "\uf5b2";
       public static String ribbon = "\uf4d6";
       public static String road = "\uf018";
       public static String robot = "\uf544";
       public static String rocket = "\uf135";
       public static String rocketchat = "\uf3e8";
       public static String rockrms = "\uf3e9";
+      public static String route = "\uf4d7";
       public static String rss = "\uf09e";
       public static String rssSquare = "\uf143";
       public static String rubleSign = "\uf158";
@@ -834,6 +859,7 @@
       public static String sellsy = "\uf213";
       public static String server = "\uf233";
       public static String servicestack = "\uf3ec";
+      public static String shapes = "\uf61f";
       public static String share = "\uf064";
       public static String shareAlt = "\uf1e0";
       public static String shareAltSquare = "\uf1e1";
@@ -903,6 +929,7 @@
       public static String star = "\uf005";
       public static String starHalf = "\uf089";
       public static String starHalfAlt = "\uf5c0";
+      public static String starOfLife = "\uf621";
       public static String staylinked = "\uf3f5";
       public static String steam = "\uf1b6";
       public static String steamSquare = "\uf1b7";
@@ -954,6 +981,8 @@
       public static String tasks = "\uf0ae";
       public static String taxi = "\uf1ba";
       public static String teamspeak = "\uf4f9";
+      public static String teeth = "\uf62e";
+      public static String teethOpen = "\uf62f";
       public static String telegram = "\uf2c6";
       public static String telegramPlane = "\uf3fe";
       public static String tencentWeibo = "\uf1d5";
@@ -963,6 +992,7 @@
       public static String th = "\uf00a";
       public static String thLarge = "\uf009";
       public static String thList = "\uf00b";
+      public static String theaterMasks = "\uf630";
       public static String themeco = "\uf5c6";
       public static String themeisle = "\uf2b2";
       public static String thermometer = "\uf491";
@@ -986,6 +1016,7 @@
       public static String tooth = "\uf5c9";
       public static String tradeFederation = "\uf513";
       public static String trademark = "\uf25c";
+      public static String trafficLight = "\uf637";
       public static String train = "\uf238";
       public static String transgender = "\uf224";
       public static String transgenderAlt = "\uf225";
@@ -997,7 +1028,9 @@
       public static String trophy = "\uf091";
       public static String truck = "\uf0d1";
       public static String truckLoading = "\uf4de";
+      public static String truckMonster = "\uf63b";
       public static String truckMoving = "\uf4df";
+      public static String truckPickup = "\uf63c";
       public static String tshirt = "\uf553";
       public static String tty = "\uf1e4";
       public static String tumblr = "\uf173";
@@ -1117,10 +1150,11 @@
       public static String yoast = "\uf2b1";
       public static String youtube = "\uf167";
       public static String youtubeSquare = "\uf431";
-      public static ArrayList<String> solidIcons = new ArrayList<String>(Arrays.asList("addressBook","addressCard","adjust","alignCenter","alignJustify","alignLeft","alignRight","allergies","ambulance","americanSignLanguageInterpreting","anchor","angleDoubleDown","angleDoubleLeft","angleDoubleRight","angleDoubleUp","angleDown","angleLeft","angleRight","angleUp","angry","archive","archway","arrowAltCircleDown","arrowAltCircleLeft","arrowAltCircleRight","arrowAltCircleUp","arrowCircleDown","arrowCircleLeft","arrowCircleRight","arrowCircleUp","arrowDown","arrowLeft","arrowRight","arrowUp","arrowsAlt","arrowsAltH","arrowsAltV","assistiveListeningSystems","asterisk","at","atlas","audioDescription","award","backspace","backward","balanceScale","ban","bandAid","barcode","bars","baseballBall","basketballBall","bath","batteryEmpty","batteryFull","batteryHalf","batteryQuarter","batteryThreeQuarters","bed","beer","bell","bellSlash","bezierCurve","bicycle","binoculars","birthdayCake","blender","blind","bold","bolt","bomb","bong","book","bookOpen","bookmark","bowlingBall","box","boxOpen","boxes","braille","briefcase","briefcaseMedical","broadcastTower","broom","brush","bug","building","bullhorn","bullseye","burn","bus","busAlt","calculator","calendar","calendarAlt","calendarCheck","calendarMinus","calendarPlus","calendarTimes","camera","cameraRetro","cannabis","capsules","car","caretDown","caretLeft","caretRight","caretSquareDown","caretSquareLeft","caretSquareRight","caretSquareUp","caretUp","cartArrowDown","cartPlus","certificate","chalkboard","chalkboardTeacher","chartArea","chartBar","chartLine","chartPie","check","checkCircle","checkDouble","checkSquare","chess","chessBishop","chessBoard","chessKing","chessKnight","chessPawn","chessQueen","chessRook","chevronCircleDown","chevronCircleLeft","chevronCircleRight","chevronCircleUp","chevronDown","chevronLeft","chevronRight","chevronUp","child","church","circle","circleNotch","clipboard","clipboardCheck","clipboardList","clock","clone","closedCaptioning","cloud","cloudDownloadAlt","cloudUploadAlt","cocktail","code","codeBranch","coffee","cog","cogs","coins","columns","comment","commentAlt","commentDots","commentSlash","comments","compactDisc","compass","compress","conciergeBell","cookie","cookieBite","copy","copyright","couch","creditCard","crop","cropAlt","crosshairs","crow","crown","cube","cubes","cut","database","deaf","desktop","diagnoses","dice","diceFive","diceFour","diceOne","diceSix","diceThree","diceTwo","digitalTachograph","divide","dizzy","dna","dollarSign","dolly","dollyFlatbed","donate","doorClosed","doorOpen","dotCircle","dove","download","draftingCompass","drum","drumSteelpan","dumbbell","edit","eject","ellipsisH","ellipsisV","envelope","envelopeOpen","envelopeSquare","equals","eraser","euroSign","exchangeAlt","exclamation","exclamationCircle","exclamationTriangle","expand","expandArrowsAlt","externalLinkAlt","externalLinkSquareAlt","eye","eyeDropper","eyeSlash","fastBackward","fastForward","fax","feather","featherAlt","female","fighterJet","file","fileAlt","fileArchive","fileAudio","fileCode","fileContract","fileDownload","fileExcel","fileExport","fileImage","fileImport","fileInvoice","fileInvoiceDollar","fileMedical","fileMedicalAlt","filePdf","filePowerpoint","filePrescription","fileSignature","fileUpload","fileVideo","fileWord","fill","fillDrip","film","filter","fingerprint","fire","fireExtinguisher","firstAid","fish","flag","flagCheckered","flask","flushed","folder","folderOpen","font","fontAwesomeLogoFull","footballBall","forward","frog","frown","frownOpen","futbol","gamepad","gasPump","gavel","gem","genderless","gift","glassMartini","glassMartiniAlt","glasses","globe","globeAfrica","globeAmericas","globeAsia","golfBall","graduationCap","greaterThan","greaterThanEqual","grimace","grin","grinAlt","grinBeam","grinBeamSweat","grinHearts","grinSquint","grinSquintTears","grinStars","grinTears","grinTongue","grinTongueSquint","grinTongueWink","grinWink","gripHorizontal","gripVertical","hSquare","handHolding","handHoldingHeart","handHoldingUsd","handLizard","handPaper","handPeace","handPointDown","handPointLeft","handPointRight","handPointUp","handPointer","handRock","handScissors","handSpock","hands","handsHelping","handshake","hashtag","hdd","heading","headphones","headphonesAlt","headset","heart","heartbeat","helicopter","highlighter","history","hockeyPuck","home","hospital","hospitalAlt","hospitalSymbol","hotTub","hotel","hourglass","hourglassEnd","hourglassHalf","hourglassStart","iCursor","idBadge","idCard","idCardAlt","image","images","inbox","indent","industry","infinity","info","infoCircle","italic","joint","key","keyboard","kiss","kissBeam","kissWinkHeart","kiwiBird","language","laptop","laugh","laughBeam","laughSquint","laughWink","leaf","lemon","lessThan","lessThanEqual","levelDownAlt","levelUpAlt","lifeRing","lightbulb","link","liraSign","list","listAlt","listOl","listUl","locationArrow","lock","lockOpen","longArrowAltDown","longArrowAltLeft","longArrowAltRight","longArrowAltUp","lowVision","luggageCart","magic","magnet","male","map","mapMarked","mapMarkedAlt","mapMarker","mapMarkerAlt","mapPin","mapSigns","marker","mars","marsDouble","marsStroke","marsStrokeH","marsStrokeV","medal","medkit","meh","mehBlank","mehRollingEyes","memory","mercury","microchip","microphone","microphoneAlt","microphoneAltSlash","microphoneSlash","minus","minusCircle","minusSquare","mobile","mobileAlt","moneyBill","moneyBillAlt","moneyBillWave","moneyBillWaveAlt","moneyCheck","moneyCheckAlt","monument","moon","mortarPestle","motorcycle","mousePointer","music","neuter","newspaper","notEqual","notesMedical","objectGroup","objectUngroup","outdent","paintBrush","paintRoller","palette","pallet","paperPlane","paperclip","parachuteBox","paragraph","parking","passport","paste","pause","pauseCircle","paw","pen","penAlt","penFancy","penNib","penSquare","pencilAlt","pencilRuler","peopleCarry","percent","percentage","phone","phoneSlash","phoneSquare","phoneVolume","piggyBank","pills","plane","planeArrival","planeDeparture","play","playCircle","plug","plus","plusCircle","plusSquare","podcast","poo","portrait","poundSign","powerOff","prescription","prescriptionBottle","prescriptionBottleAlt","print","procedures","projectDiagram","puzzlePiece","qrcode","question","questionCircle","quidditch","quoteLeft","quoteRight","random","receipt","recycle","redo","redoAlt","registered","reply","replyAll","retweet","ribbon","road","robot","rocket","rss","rssSquare","rubleSign","ruler","rulerCombined","rulerHorizontal","rulerVertical","rupeeSign","sadCry","sadTear","save","school","screwdriver","search","searchMinus","searchPlus","seedling","server","share","shareAlt","shareAltSquare","shareSquare","shekelSign","shieldAlt","ship","shippingFast","shoePrints","shoppingBag","shoppingBasket","shoppingCart","shower","shuttleVan","sign","signInAlt","signLanguage","signOutAlt","signal","signature","sitemap","skull","slidersH","smile","smileBeam","smileWink","smoking","smokingBan","snowflake","solarPanel","sort","sortAlphaDown","sortAlphaUp","sortAmountDown","sortAmountUp","sortDown","sortNumericDown","sortNumericUp","sortUp","spa","spaceShuttle","spinner","splotch","sprayCan","square","squareFull","stamp","star","starHalf","starHalfAlt","stepBackward","stepForward","stethoscope","stickyNote","stop","stopCircle","stopwatch","store","storeAlt","stream","streetView","strikethrough","stroopwafel","subscript","subway","suitcase","suitcaseRolling","sun","superscript","surprise","swatchbook","swimmer","swimmingPool","sync","syncAlt","syringe","table","tableTennis","tablet","tabletAlt","tablets","tachometerAlt","tag","tags","tape","tasks","taxi","terminal","textHeight","textWidth","th","thLarge","thList","thermometer","thermometerEmpty","thermometerFull","thermometerHalf","thermometerQuarter","thermometerThreeQuarters","thumbsDown","thumbsUp","thumbtack","ticketAlt","times","timesCircle","tint","tintSlash","tired","toggleOff","toggleOn","toolbox","tooth","trademark","train","transgender","transgenderAlt","trash","trashAlt","tree","trophy","truck","truckLoading","truckMoving","tshirt","tty","tv","umbrella","umbrellaBeach","underline","undo","undoAlt","universalAccess","university","unlink","unlock","unlockAlt","upload","user","userAlt","userAltSlash","userAstronaut","userCheck","userCircle","userClock","userCog","userEdit","userFriends","userGraduate","userLock","userMd","userMinus","userNinja","userPlus","userSecret","userShield","userSlash","userTag","userTie","userTimes","users","usersCog","utensilSpoon","utensils","vectorSquare","venus","venusDouble","venusMars","vial","vials","video","videoSlash","volleyballBall","volumeDown","volumeOff","volumeUp","walking","wallet","warehouse","weight","weightHanging","wheelchair","wifi","windowClose","windowMaximize","windowMinimize","windowRestore","wineGlass","wineGlassAlt","wonSign","wrench","xRay","yenSign"));
+      public static String zhihu = "\uf63f";
+      public static ArrayList<String> solidIcons = new ArrayList<String>(Arrays.asList("addressBook","addressCard","adjust","airFreshener","alignCenter","alignJustify","alignLeft","alignRight","allergies","ambulance","americanSignLanguageInterpreting","anchor","angleDoubleDown","angleDoubleLeft","angleDoubleRight","angleDoubleUp","angleDown","angleLeft","angleRight","angleUp","angry","appleAlt","archive","archway","arrowAltCircleDown","arrowAltCircleLeft","arrowAltCircleRight","arrowAltCircleUp","arrowCircleDown","arrowCircleLeft","arrowCircleRight","arrowCircleUp","arrowDown","arrowLeft","arrowRight","arrowUp","arrowsAlt","arrowsAltH","arrowsAltV","assistiveListeningSystems","asterisk","at","atlas","atom","audioDescription","award","backspace","backward","balanceScale","ban","bandAid","barcode","bars","baseballBall","basketballBall","bath","batteryEmpty","batteryFull","batteryHalf","batteryQuarter","batteryThreeQuarters","bed","beer","bell","bellSlash","bezierCurve","bicycle","binoculars","birthdayCake","blender","blind","bold","bolt","bomb","bone","bong","book","bookOpen","bookReader","bookmark","bowlingBall","box","boxOpen","boxes","braille","brain","briefcase","briefcaseMedical","broadcastTower","broom","brush","bug","building","bullhorn","bullseye","burn","bus","busAlt","calculator","calendar","calendarAlt","calendarCheck","calendarMinus","calendarPlus","calendarTimes","camera","cameraRetro","cannabis","capsules","car","carAlt","carBattery","carCrash","carSide","caretDown","caretLeft","caretRight","caretSquareDown","caretSquareLeft","caretSquareRight","caretSquareUp","caretUp","cartArrowDown","cartPlus","certificate","chalkboard","chalkboardTeacher","chargingStation","chartArea","chartBar","chartLine","chartPie","check","checkCircle","checkDouble","checkSquare","chess","chessBishop","chessBoard","chessKing","chessKnight","chessPawn","chessQueen","chessRook","chevronCircleDown","chevronCircleLeft","chevronCircleRight","chevronCircleUp","chevronDown","chevronLeft","chevronRight","chevronUp","child","church","circle","circleNotch","clipboard","clipboardCheck","clipboardList","clock","clone","closedCaptioning","cloud","cloudDownloadAlt","cloudUploadAlt","cocktail","code","codeBranch","coffee","cog","cogs","coins","columns","comment","commentAlt","commentDots","commentSlash","comments","compactDisc","compass","compress","conciergeBell","cookie","cookieBite","copy","copyright","couch","creditCard","crop","cropAlt","crosshairs","crow","crown","cube","cubes","cut","database","deaf","desktop","diagnoses","dice","diceFive","diceFour","diceOne","diceSix","diceThree","diceTwo","digitalTachograph","directions","divide","dizzy","dna","dollarSign","dolly","dollyFlatbed","donate","doorClosed","doorOpen","dotCircle","dove","download","draftingCompass","drawPolygon","drum","drumSteelpan","dumbbell","edit","eject","ellipsisH","ellipsisV","envelope","envelopeOpen","envelopeSquare","equals","eraser","euroSign","exchangeAlt","exclamation","exclamationCircle","exclamationTriangle","expand","expandArrowsAlt","externalLinkAlt","externalLinkSquareAlt","eye","eyeDropper","eyeSlash","fastBackward","fastForward","fax","feather","featherAlt","female","fighterJet","file","fileAlt","fileArchive","fileAudio","fileCode","fileContract","fileDownload","fileExcel","fileExport","fileImage","fileImport","fileInvoice","fileInvoiceDollar","fileMedical","fileMedicalAlt","filePdf","filePowerpoint","filePrescription","fileSignature","fileUpload","fileVideo","fileWord","fill","fillDrip","film","filter","fingerprint","fire","fireExtinguisher","firstAid","fish","flag","flagCheckered","flask","flushed","folder","folderOpen","font","fontAwesomeLogoFull","footballBall","forward","frog","frown","frownOpen","futbol","gamepad","gasPump","gavel","gem","genderless","gift","glassMartini","glassMartiniAlt","glasses","globe","globeAfrica","globeAmericas","globeAsia","golfBall","graduationCap","greaterThan","greaterThanEqual","grimace","grin","grinAlt","grinBeam","grinBeamSweat","grinHearts","grinSquint","grinSquintTears","grinStars","grinTears","grinTongue","grinTongueSquint","grinTongueWink","grinWink","gripHorizontal","gripVertical","hSquare","handHolding","handHoldingHeart","handHoldingUsd","handLizard","handPaper","handPeace","handPointDown","handPointLeft","handPointRight","handPointUp","handPointer","handRock","handScissors","handSpock","hands","handsHelping","handshake","hashtag","hdd","heading","headphones","headphonesAlt","headset","heart","heartbeat","helicopter","highlighter","history","hockeyPuck","home","hospital","hospitalAlt","hospitalSymbol","hotTub","hotel","hourglass","hourglassEnd","hourglassHalf","hourglassStart","iCursor","idBadge","idCard","idCardAlt","image","images","inbox","indent","industry","infinity","info","infoCircle","italic","joint","key","keyboard","kiss","kissBeam","kissWinkHeart","kiwiBird","language","laptop","laptopCode","laugh","laughBeam","laughSquint","laughWink","layerGroup","leaf","lemon","lessThan","lessThanEqual","levelDownAlt","levelUpAlt","lifeRing","lightbulb","link","liraSign","list","listAlt","listOl","listUl","locationArrow","lock","lockOpen","longArrowAltDown","longArrowAltLeft","longArrowAltRight","longArrowAltUp","lowVision","luggageCart","magic","magnet","male","map","mapMarked","mapMarkedAlt","mapMarker","mapMarkerAlt","mapPin","mapSigns","marker","mars","marsDouble","marsStroke","marsStrokeH","marsStrokeV","medal","medkit","meh","mehBlank","mehRollingEyes","memory","mercury","microchip","microphone","microphoneAlt","microphoneAltSlash","microphoneSlash","microscope","minus","minusCircle","minusSquare","mobile","mobileAlt","moneyBill","moneyBillAlt","moneyBillWave","moneyBillWaveAlt","moneyCheck","moneyCheckAlt","monument","moon","mortarPestle","motorcycle","mousePointer","music","neuter","newspaper","notEqual","notesMedical","objectGroup","objectUngroup","oilCan","outdent","paintBrush","paintRoller","palette","pallet","paperPlane","paperclip","parachuteBox","paragraph","parking","passport","paste","pause","pauseCircle","paw","pen","penAlt","penFancy","penNib","penSquare","pencilAlt","pencilRuler","peopleCarry","percent","percentage","phone","phoneSlash","phoneSquare","phoneVolume","piggyBank","pills","plane","planeArrival","planeDeparture","play","playCircle","plug","plus","plusCircle","plusSquare","podcast","poo","poop","portrait","poundSign","powerOff","prescription","prescriptionBottle","prescriptionBottleAlt","print","procedures","projectDiagram","puzzlePiece","qrcode","question","questionCircle","quidditch","quoteLeft","quoteRight","random","receipt","recycle","redo","redoAlt","registered","reply","replyAll","retweet","ribbon","road","robot","rocket","route","rss","rssSquare","rubleSign","ruler","rulerCombined","rulerHorizontal","rulerVertical","rupeeSign","sadCry","sadTear","save","school","screwdriver","search","searchMinus","searchPlus","seedling","server","shapes","share","shareAlt","shareAltSquare","shareSquare","shekelSign","shieldAlt","ship","shippingFast","shoePrints","shoppingBag","shoppingBasket","shoppingCart","shower","shuttleVan","sign","signInAlt","signLanguage","signOutAlt","signal","signature","sitemap","skull","slidersH","smile","smileBeam","smileWink","smoking","smokingBan","snowflake","solarPanel","sort","sortAlphaDown","sortAlphaUp","sortAmountDown","sortAmountUp","sortDown","sortNumericDown","sortNumericUp","sortUp","spa","spaceShuttle","spinner","splotch","sprayCan","square","squareFull","stamp","star","starHalf","starHalfAlt","starOfLife","stepBackward","stepForward","stethoscope","stickyNote","stop","stopCircle","stopwatch","store","storeAlt","stream","streetView","strikethrough","stroopwafel","subscript","subway","suitcase","suitcaseRolling","sun","superscript","surprise","swatchbook","swimmer","swimmingPool","sync","syncAlt","syringe","table","tableTennis","tablet","tabletAlt","tablets","tachometerAlt","tag","tags","tape","tasks","taxi","teeth","teethOpen","terminal","textHeight","textWidth","th","thLarge","thList","theaterMasks","thermometer","thermometerEmpty","thermometerFull","thermometerHalf","thermometerQuarter","thermometerThreeQuarters","thumbsDown","thumbsUp","thumbtack","ticketAlt","times","timesCircle","tint","tintSlash","tired","toggleOff","toggleOn","toolbox","tooth","trademark","trafficLight","train","transgender","transgenderAlt","trash","trashAlt","tree","trophy","truck","truckLoading","truckMonster","truckMoving","truckPickup","tshirt","tty","tv","umbrella","umbrellaBeach","underline","undo","undoAlt","universalAccess","university","unlink","unlock","unlockAlt","upload","user","userAlt","userAltSlash","userAstronaut","userCheck","userCircle","userClock","userCog","userEdit","userFriends","userGraduate","userLock","userMd","userMinus","userNinja","userPlus","userSecret","userShield","userSlash","userTag","userTie","userTimes","users","usersCog","utensilSpoon","utensils","vectorSquare","venus","venusDouble","venusMars","vial","vials","video","videoSlash","volleyballBall","volumeDown","volumeOff","volumeUp","walking","wallet","warehouse","weight","weightHanging","wheelchair","wifi","windowClose","windowMaximize","windowMinimize","windowRestore","wineGlass","wineGlassAlt","wonSign","wrench","xRay","yenSign"));
       public static ArrayList<String> regularIcons = new ArrayList<String>(Arrays.asList("addressBook","addressCard","angry","arrowAltCircleDown","arrowAltCircleLeft","arrowAltCircleRight","arrowAltCircleUp","bell","bellSlash","bookmark","building","calendar","calendarAlt","calendarCheck","calendarMinus","calendarPlus","calendarTimes","caretSquareDown","caretSquareLeft","caretSquareRight","caretSquareUp","chartBar","checkCircle","checkSquare","circle","clipboard","clock","clone","closedCaptioning","comment","commentAlt","commentDots","comments","compass","copy","copyright","creditCard","dizzy","dotCircle","edit","envelope","envelopeOpen","eye","eyeSlash","file","fileAlt","fileArchive","fileAudio","fileCode","fileExcel","fileImage","filePdf","filePowerpoint","fileVideo","fileWord","flag","flushed","folder","folderOpen","fontAwesomeLogoFull","frown","frownOpen","futbol","gem","grimace","grin","grinAlt","grinBeam","grinBeamSweat","grinHearts","grinSquint","grinSquintTears","grinStars","grinTears","grinTongue","grinTongueSquint","grinTongueWink","grinWink","handLizard","handPaper","handPeace","handPointDown","handPointLeft","handPointRight","handPointUp","handPointer","handRock","handScissors","handSpock","handshake","hdd","heart","hospital","hourglass","idBadge","idCard","image","images","keyboard","kiss","kissBeam","kissWinkHeart","laugh","laughBeam","laughSquint","laughWink","lemon","lifeRing","lightbulb","listAlt","map","meh","mehBlank","mehRollingEyes","minusSquare","moneyBillAlt","moon","newspaper","objectGroup","objectUngroup","paperPlane","pauseCircle","playCircle","plusSquare","questionCircle","registered","sadCry","sadTear","save","shareSquare","smile","smileBeam","smileWink","snowflake","square","star","starHalf","stickyNote","stopCircle","sun","surprise","thumbsDown","thumbsUp","timesCircle","tired","trashAlt","user","userCircle","windowClose","windowMaximize","windowMinimize","windowRestore"));
       public static ArrayList<String> lightIcons = new ArrayList<String>(Arrays.asList());
-      public static ArrayList<String> brandIcons = new ArrayList<String>(Arrays.asList("_500px","accessibleIcon","accusoft","adn","adversal","affiliatetheme","algolia","amazon","amazonPay","amilia","android","angellist","angrycreative","angular","appStore","appStoreIos","apper","apple","applePay","asymmetrik","audible","autoprefixer","avianex","aviato","aws","bandcamp","behance","behanceSquare","bimobject","bitbucket","bitcoin","bity","blackTie","blackberry","blogger","bloggerB","bluetooth","bluetoothB","btc","buromobelexperte","buysellads","ccAmazonPay","ccAmex","ccApplePay","ccDinersClub","ccDiscover","ccJcb","ccMastercard","ccPaypal","ccStripe","ccVisa","centercode","chrome","cloudscale","cloudsmith","cloudversify","codepen","codiepie","connectdevelop","contao","cpanel","creativeCommons","creativeCommonsBy","creativeCommonsNc","creativeCommonsNcEu","creativeCommonsNcJp","creativeCommonsNd","creativeCommonsPd","creativeCommonsPdAlt","creativeCommonsRemix","creativeCommonsSa","creativeCommonsSampling","creativeCommonsSamplingPlus","creativeCommonsShare","css3","css3Alt","cuttlefish","dAndD","dashcube","delicious","deploydog","deskpro","deviantart","digg","digitalOcean","discord","discourse","dochub","docker","draft2digital","dribbble","dribbbleSquare","dropbox","drupal","dyalog","earlybirds","ebay","edge","elementor","ember","empire","envira","erlang","ethereum","etsy","expeditedssl","facebook","facebookF","facebookMessenger","facebookSquare","firefox","firstOrder","firstOrderAlt","firstdraft","flickr","flipboard","fly","fontAwesome","fontAwesomeAlt","fontAwesomeFlag","fontAwesomeLogoFull","fonticons","fonticonsFi","fortAwesome","fortAwesomeAlt","forumbee","foursquare","freeCodeCamp","freebsd","fulcrum","galacticRepublic","galacticSenate","getPocket","gg","ggCircle","git","gitSquare","github","githubAlt","githubSquare","gitkraken","gitlab","gitter","glide","glideG","gofore","goodreads","goodreadsG","google","googleDrive","googlePlay","googlePlus","googlePlusG","googlePlusSquare","googleWallet","gratipay","grav","gripfire","grunt","gulp","hackerNews","hackerNewsSquare","hips","hireAHelper","hooli","hornbill","hotjar","houzz","html5","hubspot","imdb","instagram","internetExplorer","ioxhost","itunes","itunesNote","java","jediOrder","jenkins","joget","joomla","js","jsSquare","jsfiddle","keybase","keycdn","kickstarter","kickstarterK","korvue","laravel","lastfm","lastfmSquare","leanpub","less","line","linkedin","linkedinIn","linode","linux","lyft","magento","mailchimp","mandalorian","mastodon","maxcdn","medapps","medium","mediumM","medrt","meetup","megaport","microsoft","mix","mixcloud","mizuni","modx","monero","napster","nimblr","nintendoSwitch","node","nodeJs","npm","ns8","nutritionix","odnoklassniki","odnoklassnikiSquare","oldRepublic","opencart","openid","opera","optinMonster","osi","page4","pagelines","palfed","patreon","paypal","periscope","phabricator","phoenixFramework","phoenixSquadron","php","piedPiper","piedPiperAlt","piedPiperHat","piedPiperPp","pinterest","pinterestP","pinterestSquare","playstation","productHunt","pushed","python","qq","quinscape","quora","rProject","ravelry","react","readme","rebel","redRiver","reddit","redditAlien","redditSquare","rendact","renren","replyd","researchgate","resolving","rocketchat","rockrms","safari","sass","schlix","scribd","searchengin","sellcast","sellsy","servicestack","shirtsinbulk","shopware","simplybuilt","sistrix","sith","skyatlas","skype","slack","slackHash","slideshare","snapchat","snapchatGhost","snapchatSquare","soundcloud","speakap","spotify","squarespace","stackExchange","stackOverflow","staylinked","steam","steamSquare","steamSymbol","stickerMule","strava","stripe","stripeS","studiovinari","stumbleupon","stumbleuponCircle","superpowers","supple","teamspeak","telegram","telegramPlane","tencentWeibo","themeco","themeisle","tradeFederation","trello","tripadvisor","tumblr","tumblrSquare","twitch","twitter","twitterSquare","typo3","uber","uikit","uniregistry","untappd","usb","ussunnah","vaadin","viacoin","viadeo","viadeoSquare","viber","vimeo","vimeoSquare","vimeoV","vine","vk","vnv","vuejs","weebly","weibo","weixin","whatsapp","whatsappSquare","whmcs","wikipediaW","windows","wix","wolfPackBattalion","wordpress","wordpressSimple","wpbeginner","wpexplorer","wpforms","xbox","xing","xingSquare","yCombinator","yahoo","yandex","yandexInternational","yelp","yoast","youtube","youtubeSquare"));
+      public static ArrayList<String> brandIcons = new ArrayList<String>(Arrays.asList("_500px","accessibleIcon","accusoft","adn","adversal","affiliatetheme","algolia","amazon","amazonPay","amilia","android","angellist","angrycreative","angular","appStore","appStoreIos","apper","apple","applePay","asymmetrik","audible","autoprefixer","avianex","aviato","aws","bandcamp","behance","behanceSquare","bimobject","bitbucket","bitcoin","bity","blackTie","blackberry","blogger","bloggerB","bluetooth","bluetoothB","btc","buromobelexperte","buysellads","ccAmazonPay","ccAmex","ccApplePay","ccDinersClub","ccDiscover","ccJcb","ccMastercard","ccPaypal","ccStripe","ccVisa","centercode","chrome","cloudscale","cloudsmith","cloudversify","codepen","codiepie","connectdevelop","contao","cpanel","creativeCommons","creativeCommonsBy","creativeCommonsNc","creativeCommonsNcEu","creativeCommonsNcJp","creativeCommonsNd","creativeCommonsPd","creativeCommonsPdAlt","creativeCommonsRemix","creativeCommonsSa","creativeCommonsSampling","creativeCommonsSamplingPlus","creativeCommonsShare","css3","css3Alt","cuttlefish","dAndD","dashcube","delicious","deploydog","deskpro","deviantart","digg","digitalOcean","discord","discourse","dochub","docker","draft2digital","dribbble","dribbbleSquare","dropbox","drupal","dyalog","earlybirds","ebay","edge","elementor","ello","ember","empire","envira","erlang","ethereum","etsy","expeditedssl","facebook","facebookF","facebookMessenger","facebookSquare","firefox","firstOrder","firstOrderAlt","firstdraft","flickr","flipboard","fly","fontAwesome","fontAwesomeAlt","fontAwesomeFlag","fontAwesomeLogoFull","fonticons","fonticonsFi","fortAwesome","fortAwesomeAlt","forumbee","foursquare","freeCodeCamp","freebsd","fulcrum","galacticRepublic","galacticSenate","getPocket","gg","ggCircle","git","gitSquare","github","githubAlt","githubSquare","gitkraken","gitlab","gitter","glide","glideG","gofore","goodreads","goodreadsG","google","googleDrive","googlePlay","googlePlus","googlePlusG","googlePlusSquare","googleWallet","gratipay","grav","gripfire","grunt","gulp","hackerNews","hackerNewsSquare","hackerrank","hips","hireAHelper","hooli","hornbill","hotjar","houzz","html5","hubspot","imdb","instagram","internetExplorer","ioxhost","itunes","itunesNote","java","jediOrder","jenkins","joget","joomla","js","jsSquare","jsfiddle","kaggle","keybase","keycdn","kickstarter","kickstarterK","korvue","laravel","lastfm","lastfmSquare","leanpub","less","line","linkedin","linkedinIn","linode","linux","lyft","magento","mailchimp","mandalorian","markdown","mastodon","maxcdn","medapps","medium","mediumM","medrt","meetup","megaport","microsoft","mix","mixcloud","mizuni","modx","monero","napster","neos","nimblr","nintendoSwitch","node","nodeJs","npm","ns8","nutritionix","odnoklassniki","odnoklassnikiSquare","oldRepublic","opencart","openid","opera","optinMonster","osi","page4","pagelines","palfed","patreon","paypal","periscope","phabricator","phoenixFramework","phoenixSquadron","php","piedPiper","piedPiperAlt","piedPiperHat","piedPiperPp","pinterest","pinterestP","pinterestSquare","playstation","productHunt","pushed","python","qq","quinscape","quora","rProject","ravelry","react","readme","rebel","redRiver","reddit","redditAlien","redditSquare","rendact","renren","replyd","researchgate","resolving","rev","rocketchat","rockrms","safari","sass","schlix","scribd","searchengin","sellcast","sellsy","servicestack","shirtsinbulk","shopware","simplybuilt","sistrix","sith","skyatlas","skype","slack","slackHash","slideshare","snapchat","snapchatGhost","snapchatSquare","soundcloud","speakap","spotify","squarespace","stackExchange","stackOverflow","staylinked","steam","steamSquare","steamSymbol","stickerMule","strava","stripe","stripeS","studiovinari","stumbleupon","stumbleuponCircle","superpowers","supple","teamspeak","telegram","telegramPlane","tencentWeibo","themeco","themeisle","tradeFederation","trello","tripadvisor","tumblr","tumblrSquare","twitch","twitter","twitterSquare","typo3","uber","uikit","uniregistry","untappd","usb","ussunnah","vaadin","viacoin","viadeo","viadeoSquare","viber","vimeo","vimeoSquare","vimeoV","vine","vk","vnv","vuejs","weebly","weibo","weixin","whatsapp","whatsappSquare","whmcs","wikipediaW","windows","wix","wolfPackBattalion","wordpress","wordpressSimple","wpbeginner","wpexplorer","wpforms","xbox","xing","xingSquare","yCombinator","yahoo","yandex","yandexInternational","yelp","yoast","youtube","youtubeSquare","zhihu"));
       public static boolean pro = false;
       public static String version = "undefined";
       public String get(String name){
