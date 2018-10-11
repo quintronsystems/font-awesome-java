@@ -91,6 +91,8 @@ var runImport = function() {
   import java.util.Arrays;
   import java.util.ArrayList;
   import java.util.HashMap;
+  import java.util.regex.Matcher;
+  import java.util.regex.Pattern;
 
   @SuppressWarnings("ALL")
   public class FontAwesomeIcons {`;
@@ -107,16 +109,16 @@ var runImport = function() {
 
             switch (style) {
                 case "brands" :
-                    brands.push(name);
+                    brands.push(k);
                     break;
                 case "solid" :
-                    strongs.push(name);
+                    strongs.push(k);
                     break;
                 case "regular" :
-                    regulars.push(name);
+                    regulars.push(k);
                     break;
                 case "light" :
-                    lights.push(name);
+                    lights.push(k);
                     break;
             }
         }
@@ -155,7 +157,14 @@ var runImport = function() {
       public static boolean pro = ${pro ? "true" : "false"};
       public static String version = "${version}";
       public String get(String name){
-        if(!allIcons.containsKey(name)) return questionCircle;
+        if(!allIcons.containsKey(name)) {
+            Pattern pattern = Pattern.compile("(?=[A-Z][a-z])");
+            Matcher matcher = pattern.matcher(name);
+            String newname = matcher.replaceAll("-").toLowerCase();
+
+            if(!allIcons.containsKey(newname)) return questionCircle;
+            return allIcons.get(newname);
+        }
         return allIcons.get(name);
       }
   `;

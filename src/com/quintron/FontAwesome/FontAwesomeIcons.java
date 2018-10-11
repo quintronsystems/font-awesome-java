@@ -4,12 +4,16 @@
   import java.util.Arrays;
   import java.util.ArrayList;
   import java.util.HashMap;
+  import java.util.regex.Matcher;
+  import java.util.regex.Pattern;
 
   @SuppressWarnings("ALL")
   public class FontAwesomeIcons {
       public static String _500px = "\uf26e";
       public static String accessibleIcon = "\uf368";
       public static String accusoft = "\uf369";
+      public static String acquisitionsIncorporated = "\uf6af";
+      public static String ad = "\uf641";
       public static String addressBook = "\uf2b9";
       public static String addressCard = "\uf2bb";
       public static String adjust = "\uf042";
@@ -22,6 +26,7 @@
       public static String alignJustify = "\uf039";
       public static String alignLeft = "\uf036";
       public static String alignRight = "\uf038";
+      public static String alipay = "\uf642";
       public static String allergies = "\uf461";
       public static String amazon = "\uf270";
       public static String amazonPay = "\uf42c";
@@ -42,6 +47,7 @@
       public static String angry = "\uf556";
       public static String angrycreative = "\uf36e";
       public static String angular = "\uf420";
+      public static String ankh = "\uf644";
       public static String appStore = "\uf36f";
       public static String appStoreIos = "\uf370";
       public static String apper = "\uf371";
@@ -101,6 +107,7 @@
       public static String bell = "\uf0f3";
       public static String bellSlash = "\uf1f6";
       public static String bezierCurve = "\uf55b";
+      public static String bible = "\uf647";
       public static String bicycle = "\uf206";
       public static String bimobject = "\uf378";
       public static String binoculars = "\uf1e5";
@@ -111,6 +118,7 @@
       public static String blackTie = "\uf27e";
       public static String blackberry = "\uf37b";
       public static String blender = "\uf517";
+      public static String blenderPhone = "\uf6b6";
       public static String blind = "\uf29d";
       public static String blogger = "\uf37c";
       public static String bloggerB = "\uf37d";
@@ -122,6 +130,7 @@
       public static String bone = "\uf5d7";
       public static String bong = "\uf55c";
       public static String book = "\uf02d";
+      public static String bookDead = "\uf6b7";
       public static String bookOpen = "\uf518";
       public static String bookReader = "\uf5da";
       public static String bookmark = "\uf02e";
@@ -145,6 +154,7 @@
       public static String buromobelexperte = "\uf37f";
       public static String bus = "\uf207";
       public static String busAlt = "\uf55e";
+      public static String businessTime = "\uf64a";
       public static String buysellads = "\uf20d";
       public static String calculator = "\uf1ec";
       public static String calendar = "\uf133";
@@ -155,6 +165,7 @@
       public static String calendarTimes = "\uf273";
       public static String camera = "\uf030";
       public static String cameraRetro = "\uf083";
+      public static String campground = "\uf6bb";
       public static String cannabis = "\uf55f";
       public static String capsules = "\uf46b";
       public static String car = "\uf1b9";
@@ -172,6 +183,7 @@
       public static String caretUp = "\uf0d8";
       public static String cartArrowDown = "\uf218";
       public static String cartPlus = "\uf217";
+      public static String cat = "\uf6be";
       public static String ccAmazonPay = "\uf42d";
       public static String ccAmex = "\uf1f3";
       public static String ccApplePay = "\uf416";
@@ -184,6 +196,7 @@
       public static String ccVisa = "\uf1f0";
       public static String centercode = "\uf380";
       public static String certificate = "\uf0a3";
+      public static String chair = "\uf6c0";
       public static String chalkboard = "\uf51b";
       public static String chalkboardTeacher = "\uf51c";
       public static String chargingStation = "\uf5e7";
@@ -216,6 +229,7 @@
       public static String church = "\uf51d";
       public static String circle = "\uf111";
       public static String circleNotch = "\uf1ce";
+      public static String city = "\uf64f";
       public static String clipboard = "\uf328";
       public static String clipboardCheck = "\uf46c";
       public static String clipboardList = "\uf46d";
@@ -224,6 +238,8 @@
       public static String closedCaptioning = "\uf20a";
       public static String cloud = "\uf0c2";
       public static String cloudDownloadAlt = "\uf381";
+      public static String cloudMoon = "\uf6c3";
+      public static String cloudSun = "\uf6c4";
       public static String cloudUploadAlt = "\uf382";
       public static String cloudscale = "\uf383";
       public static String cloudsmith = "\uf384";
@@ -240,9 +256,11 @@
       public static String columns = "\uf0db";
       public static String comment = "\uf075";
       public static String commentAlt = "\uf27a";
+      public static String commentDollar = "\uf651";
       public static String commentDots = "\uf4ad";
       public static String commentSlash = "\uf4b3";
       public static String comments = "\uf086";
+      public static String commentsDollar = "\uf653";
       public static String compactDisc = "\uf51f";
       public static String compass = "\uf14e";
       public static String compress = "\uf066";
@@ -268,9 +286,12 @@
       public static String creativeCommonsSampling = "\uf4f0";
       public static String creativeCommonsSamplingPlus = "\uf4f1";
       public static String creativeCommonsShare = "\uf4f2";
+      public static String creativeCommonsZero = "\uf4f3";
       public static String creditCard = "\uf09d";
+      public static String criticalRole = "\uf6c9";
       public static String crop = "\uf125";
       public static String cropAlt = "\uf565";
+      public static String cross = "\uf654";
       public static String crosshairs = "\uf05b";
       public static String crow = "\uf520";
       public static String crown = "\uf521";
@@ -288,9 +309,13 @@
       public static String deploydog = "\uf38e";
       public static String deskpro = "\uf38f";
       public static String desktop = "\uf108";
+      public static String dev = "\uf6cc";
       public static String deviantart = "\uf1bd";
+      public static String dharmachakra = "\uf655";
       public static String diagnoses = "\uf470";
       public static String dice = "\uf522";
+      public static String diceD20 = "\uf6cf";
+      public static String diceD6 = "\uf6d1";
       public static String diceFive = "\uf523";
       public static String diceFour = "\uf524";
       public static String diceOne = "\uf525";
@@ -308,6 +333,7 @@
       public static String dna = "\uf471";
       public static String dochub = "\uf394";
       public static String docker = "\uf395";
+      public static String dog = "\uf6d3";
       public static String dollarSign = "\uf155";
       public static String dolly = "\uf472";
       public static String dollyFlatbed = "\uf474";
@@ -319,14 +345,17 @@
       public static String download = "\uf019";
       public static String draft2digital = "\uf396";
       public static String draftingCompass = "\uf568";
+      public static String dragon = "\uf6d5";
       public static String drawPolygon = "\uf5ee";
       public static String dribbble = "\uf17d";
       public static String dribbbleSquare = "\uf397";
       public static String dropbox = "\uf16b";
       public static String drum = "\uf569";
       public static String drumSteelpan = "\uf56a";
+      public static String drumstickBite = "\uf6d7";
       public static String drupal = "\uf1a9";
       public static String dumbbell = "\uf44b";
+      public static String dungeon = "\uf6d9";
       public static String dyalog = "\uf399";
       public static String earlybirds = "\uf39a";
       public static String ebay = "\uf4f4";
@@ -341,6 +370,7 @@
       public static String empire = "\uf1d1";
       public static String envelope = "\uf0e0";
       public static String envelopeOpen = "\uf2b6";
+      public static String envelopeOpenText = "\uf658";
       public static String envelopeSquare = "\uf199";
       public static String envira = "\uf299";
       public static String equals = "\uf52c";
@@ -365,6 +395,7 @@
       public static String facebookF = "\uf39e";
       public static String facebookMessenger = "\uf39f";
       public static String facebookSquare = "\uf082";
+      public static String fantasyFlightGames = "\uf6dc";
       public static String fastBackward = "\uf049";
       public static String fastForward = "\uf050";
       public static String fax = "\uf1ac";
@@ -378,6 +409,7 @@
       public static String fileAudio = "\uf1c7";
       public static String fileCode = "\uf1c9";
       public static String fileContract = "\uf56c";
+      public static String fileCsv = "\uf6dd";
       public static String fileDownload = "\uf56d";
       public static String fileExcel = "\uf1c3";
       public static String fileExport = "\uf56e";
@@ -407,6 +439,7 @@
       public static String firstOrderAlt = "\uf50a";
       public static String firstdraft = "\uf3a1";
       public static String fish = "\uf578";
+      public static String fistRaised = "\uf6de";
       public static String flag = "\uf024";
       public static String flagCheckered = "\uf11e";
       public static String flask = "\uf0c3";
@@ -415,7 +448,9 @@
       public static String flushed = "\uf579";
       public static String fly = "\uf417";
       public static String folder = "\uf07b";
+      public static String folderMinus = "\uf65d";
       public static String folderOpen = "\uf07c";
+      public static String folderPlus = "\uf65e";
       public static String font = "\uf031";
       public static String fontAwesome = "\uf2b4";
       public static String fontAwesomeAlt = "\uf35c";
@@ -435,6 +470,7 @@
       public static String frown = "\uf119";
       public static String frownOpen = "\uf57a";
       public static String fulcrum = "\uf50b";
+      public static String funnelDollar = "\uf662";
       public static String futbol = "\uf1e3";
       public static String galacticRepublic = "\uf50c";
       public static String galacticSenate = "\uf50d";
@@ -446,6 +482,7 @@
       public static String getPocket = "\uf265";
       public static String gg = "\uf260";
       public static String ggCircle = "\uf261";
+      public static String ghost = "\uf6e2";
       public static String gift = "\uf06b";
       public static String git = "\uf1d3";
       public static String gitSquare = "\uf1d2";
@@ -475,6 +512,7 @@
       public static String googlePlusG = "\uf0d5";
       public static String googlePlusSquare = "\uf0d4";
       public static String googleWallet = "\uf1ee";
+      public static String gopuram = "\uf664";
       public static String graduationCap = "\uf19d";
       public static String gratipay = "\uf184";
       public static String grav = "\uf2d6";
@@ -503,6 +541,8 @@
       public static String hackerNews = "\uf1d4";
       public static String hackerNewsSquare = "\uf3af";
       public static String hackerrank = "\uf5f7";
+      public static String hammer = "\uf6e3";
+      public static String hamsa = "\uf665";
       public static String handHolding = "\uf4bd";
       public static String handHoldingHeart = "\uf4be";
       public static String handHoldingUsd = "\uf4c0";
@@ -520,7 +560,10 @@
       public static String hands = "\uf4c2";
       public static String handsHelping = "\uf4c4";
       public static String handshake = "\uf2b5";
+      public static String hanukiah = "\uf6e6";
       public static String hashtag = "\uf292";
+      public static String hatWizard = "\uf6e8";
+      public static String haykal = "\uf666";
       public static String hdd = "\uf0a0";
       public static String heading = "\uf1dc";
       public static String headphones = "\uf025";
@@ -530,6 +573,8 @@
       public static String heartbeat = "\uf21e";
       public static String helicopter = "\uf533";
       public static String highlighter = "\uf591";
+      public static String hiking = "\uf6ec";
+      public static String hippo = "\uf6ed";
       public static String hips = "\uf452";
       public static String hireAHelper = "\uf3b0";
       public static String history = "\uf1da";
@@ -537,6 +582,7 @@
       public static String home = "\uf015";
       public static String hooli = "\uf427";
       public static String hornbill = "\uf592";
+      public static String horse = "\uf6f0";
       public static String hospital = "\uf0f8";
       public static String hospitalAlt = "\uf47d";
       public static String hospitalSymbol = "\uf47e";
@@ -547,7 +593,9 @@
       public static String hourglassEnd = "\uf253";
       public static String hourglassHalf = "\uf252";
       public static String hourglassStart = "\uf251";
+      public static String houseDamage = "\uf6f1";
       public static String houzz = "\uf27c";
+      public static String hryvnia = "\uf6f2";
       public static String html5 = "\uf13b";
       public static String hubspot = "\uf3b2";
       public static String iCursor = "\uf246";
@@ -570,19 +618,23 @@
       public static String itunes = "\uf3b4";
       public static String itunesNote = "\uf3b5";
       public static String java = "\uf4e4";
+      public static String jedi = "\uf669";
       public static String jediOrder = "\uf50e";
       public static String jenkins = "\uf3b6";
       public static String joget = "\uf3b7";
       public static String joint = "\uf595";
       public static String joomla = "\uf1aa";
+      public static String journalWhills = "\uf66a";
       public static String js = "\uf3b8";
       public static String jsSquare = "\uf3b9";
       public static String jsfiddle = "\uf1cc";
+      public static String kaaba = "\uf66b";
       public static String kaggle = "\uf5fa";
       public static String key = "\uf084";
       public static String keybase = "\uf4f5";
       public static String keyboard = "\uf11c";
       public static String keycdn = "\uf3ba";
+      public static String khanda = "\uf66d";
       public static String kickstarter = "\uf3bb";
       public static String kickstarterK = "\uf3bc";
       public static String kiss = "\uf596";
@@ -590,6 +642,7 @@
       public static String kissWinkHeart = "\uf598";
       public static String kiwiBird = "\uf535";
       public static String korvue = "\uf42f";
+      public static String landmark = "\uf66f";
       public static String language = "\uf1ab";
       public static String laptop = "\uf109";
       public static String laptopCode = "\uf5fc";
@@ -635,6 +688,7 @@
       public static String magento = "\uf3c4";
       public static String magic = "\uf0d0";
       public static String magnet = "\uf076";
+      public static String mailBulk = "\uf674";
       public static String mailchimp = "\uf59e";
       public static String male = "\uf183";
       public static String mandalorian = "\uf50f";
@@ -652,6 +706,7 @@
       public static String marsStroke = "\uf229";
       public static String marsStrokeH = "\uf22b";
       public static String marsStrokeV = "\uf22a";
+      public static String mask = "\uf6fa";
       public static String mastodon = "\uf4f6";
       public static String maxcdn = "\uf136";
       public static String medal = "\uf5a2";
@@ -666,6 +721,7 @@
       public static String mehBlank = "\uf5a4";
       public static String mehRollingEyes = "\uf5a5";
       public static String memory = "\uf538";
+      public static String menorah = "\uf676";
       public static String mercury = "\uf223";
       public static String microchip = "\uf2db";
       public static String microphone = "\uf130";
@@ -693,11 +749,14 @@
       public static String monument = "\uf5a6";
       public static String moon = "\uf186";
       public static String mortarPestle = "\uf5a7";
+      public static String mosque = "\uf678";
       public static String motorcycle = "\uf21c";
+      public static String mountain = "\uf6fc";
       public static String mousePointer = "\uf245";
       public static String music = "\uf001";
       public static String napster = "\uf3d2";
       public static String neos = "\uf612";
+      public static String networkWired = "\uf6ff";
       public static String neuter = "\uf22c";
       public static String newspaper = "\uf1ea";
       public static String nimblr = "\uf5a8";
@@ -715,11 +774,13 @@
       public static String odnoklassnikiSquare = "\uf264";
       public static String oilCan = "\uf613";
       public static String oldRepublic = "\uf510";
+      public static String om = "\uf679";
       public static String opencart = "\uf23d";
       public static String openid = "\uf19b";
       public static String opera = "\uf26a";
       public static String optinMonster = "\uf23c";
       public static String osi = "\uf41a";
+      public static String otter = "\uf700";
       public static String outdent = "\uf03b";
       public static String page4 = "\uf3d7";
       public static String pagelines = "\uf18c";
@@ -734,12 +795,14 @@
       public static String paragraph = "\uf1dd";
       public static String parking = "\uf540";
       public static String passport = "\uf5ab";
+      public static String pastafarianism = "\uf67b";
       public static String paste = "\uf0ea";
       public static String patreon = "\uf3d9";
       public static String pause = "\uf04c";
       public static String pauseCircle = "\uf28b";
       public static String paw = "\uf1b0";
       public static String paypal = "\uf1ed";
+      public static String peace = "\uf67c";
       public static String pen = "\uf304";
       public static String penAlt = "\uf305";
       public static String penFancy = "\uf5ac";
@@ -747,6 +810,7 @@
       public static String penSquare = "\uf14b";
       public static String pencilAlt = "\uf303";
       public static String pencilRuler = "\uf5ae";
+      public static String pennyArcade = "\uf704";
       public static String peopleCarry = "\uf4ce";
       public static String percent = "\uf295";
       public static String percentage = "\uf541";
@@ -768,6 +832,7 @@
       public static String pinterest = "\uf0d2";
       public static String pinterestP = "\uf231";
       public static String pinterestSquare = "\uf0d3";
+      public static String placeOfWorship = "\uf67f";
       public static String plane = "\uf072";
       public static String planeArrival = "\uf5af";
       public static String planeDeparture = "\uf5b0";
@@ -779,11 +844,15 @@
       public static String plusCircle = "\uf055";
       public static String plusSquare = "\uf0fe";
       public static String podcast = "\uf2ce";
+      public static String poll = "\uf681";
+      public static String pollH = "\uf682";
       public static String poo = "\uf2fe";
       public static String poop = "\uf619";
       public static String portrait = "\uf3e0";
       public static String poundSign = "\uf154";
       public static String powerOff = "\uf011";
+      public static String pray = "\uf683";
+      public static String prayingHands = "\uf684";
       public static String prescription = "\uf5b1";
       public static String prescriptionBottle = "\uf485";
       public static String prescriptionBottleAlt = "\uf486";
@@ -803,6 +872,7 @@
       public static String quora = "\uf2c4";
       public static String quoteLeft = "\uf10d";
       public static String quoteRight = "\uf10e";
+      public static String quran = "\uf687";
       public static String rProject = "\uf4f7";
       public static String random = "\uf074";
       public static String ravelry = "\uf2d9";
@@ -828,6 +898,7 @@
       public static String retweet = "\uf079";
       public static String rev = "\uf5b2";
       public static String ribbon = "\uf4d6";
+      public static String ring = "\uf70b";
       public static String road = "\uf018";
       public static String robot = "\uf544";
       public static String rocket = "\uf135";
@@ -841,6 +912,7 @@
       public static String rulerCombined = "\uf546";
       public static String rulerHorizontal = "\uf547";
       public static String rulerVertical = "\uf548";
+      public static String running = "\uf70c";
       public static String rupeeSign = "\uf156";
       public static String sadCry = "\uf5b3";
       public static String sadTear = "\uf5b4";
@@ -851,7 +923,10 @@
       public static String school = "\uf549";
       public static String screwdriver = "\uf54a";
       public static String scribd = "\uf28a";
+      public static String scroll = "\uf70e";
       public static String search = "\uf002";
+      public static String searchDollar = "\uf688";
+      public static String searchLocation = "\uf689";
       public static String searchMinus = "\uf010";
       public static String searchPlus = "\uf00e";
       public static String searchengin = "\uf3eb";
@@ -888,10 +963,12 @@
       public static String sitemap = "\uf0e8";
       public static String sith = "\uf512";
       public static String skull = "\uf54c";
+      public static String skullCrossbones = "\uf714";
       public static String skyatlas = "\uf216";
       public static String skype = "\uf17e";
       public static String slack = "\uf198";
       public static String slackHash = "\uf3ef";
+      public static String slash = "\uf715";
       public static String slidersH = "\uf1de";
       public static String slideshare = "\uf1e7";
       public static String smile = "\uf118";
@@ -903,6 +980,7 @@
       public static String snapchatGhost = "\uf2ac";
       public static String snapchatSquare = "\uf2ad";
       public static String snowflake = "\uf2dc";
+      public static String socks = "\uf696";
       public static String solarPanel = "\uf5ba";
       public static String sort = "\uf0dc";
       public static String sortAlphaDown = "\uf15d";
@@ -917,19 +995,23 @@
       public static String spa = "\uf5bb";
       public static String spaceShuttle = "\uf197";
       public static String speakap = "\uf3f3";
+      public static String spider = "\uf717";
       public static String spinner = "\uf110";
       public static String splotch = "\uf5bc";
       public static String spotify = "\uf1bc";
       public static String sprayCan = "\uf5bd";
       public static String square = "\uf0c8";
       public static String squareFull = "\uf45c";
+      public static String squareRootAlt = "\uf698";
       public static String squarespace = "\uf5be";
       public static String stackExchange = "\uf18d";
       public static String stackOverflow = "\uf16c";
       public static String stamp = "\uf5bf";
       public static String star = "\uf005";
+      public static String starAndCrescent = "\uf699";
       public static String starHalf = "\uf089";
       public static String starHalfAlt = "\uf5c0";
+      public static String starOfDavid = "\uf69a";
       public static String starOfLife = "\uf621";
       public static String staylinked = "\uf3f5";
       public static String steam = "\uf1b6";
@@ -967,6 +1049,7 @@
       public static String swatchbook = "\uf5c3";
       public static String swimmer = "\uf5c4";
       public static String swimmingPool = "\uf5c5";
+      public static String synagogue = "\uf69b";
       public static String sync = "\uf021";
       public static String syncAlt = "\uf2f1";
       public static String syringe = "\uf48e";
@@ -993,6 +1076,7 @@
       public static String th = "\uf00a";
       public static String thLarge = "\uf009";
       public static String thList = "\uf00b";
+      public static String theRedYeti = "\uf69d";
       public static String theaterMasks = "\uf630";
       public static String themeco = "\uf5c6";
       public static String themeisle = "\uf2b2";
@@ -1013,8 +1097,12 @@
       public static String tired = "\uf5c8";
       public static String toggleOff = "\uf204";
       public static String toggleOn = "\uf205";
+      public static String toiletPaper = "\uf71e";
       public static String toolbox = "\uf552";
       public static String tooth = "\uf5c9";
+      public static String torah = "\uf6a0";
+      public static String toriiGate = "\uf6a1";
+      public static String tractor = "\uf722";
       public static String tradeFederation = "\uf513";
       public static String trademark = "\uf25c";
       public static String trafficLight = "\uf637";
@@ -1068,6 +1156,7 @@
       public static String userEdit = "\uf4ff";
       public static String userFriends = "\uf500";
       public static String userGraduate = "\uf501";
+      public static String userInjured = "\uf728";
       public static String userLock = "\uf502";
       public static String userMd = "\uf0f0";
       public static String userMinus = "\uf503";
@@ -1097,6 +1186,7 @@
       public static String viber = "\uf409";
       public static String video = "\uf03d";
       public static String videoSlash = "\uf4e2";
+      public static String vihara = "\uf6a7";
       public static String vimeo = "\uf40a";
       public static String vimeoSquare = "\uf194";
       public static String vimeoV = "\uf27d";
@@ -1105,6 +1195,7 @@
       public static String vnv = "\uf40b";
       public static String volleyballBall = "\uf45f";
       public static String volumeDown = "\uf027";
+      public static String volumeMute = "\uf6a9";
       public static String volumeOff = "\uf026";
       public static String volumeUp = "\uf028";
       public static String vuejs = "\uf41f";
@@ -1122,14 +1213,17 @@
       public static String whmcs = "\uf40d";
       public static String wifi = "\uf1eb";
       public static String wikipediaW = "\uf266";
+      public static String wind = "\uf72e";
       public static String windowClose = "\uf410";
       public static String windowMaximize = "\uf2d0";
       public static String windowMinimize = "\uf2d1";
       public static String windowRestore = "\uf2d2";
       public static String windows = "\uf17a";
+      public static String wineBottle = "\uf72f";
       public static String wineGlass = "\uf4e3";
       public static String wineGlassAlt = "\uf5ce";
       public static String wix = "\uf5cf";
+      public static String wizardsOfTheCoast = "\uf730";
       public static String wolfPackBattalion = "\uf514";
       public static String wonSign = "\uf159";
       public static String wordpress = "\uf19a";
@@ -1148,6 +1242,7 @@
       public static String yandexInternational = "\uf414";
       public static String yelp = "\uf1e9";
       public static String yenSign = "\uf157";
+      public static String yinYang = "\uf6ad";
       public static String yoast = "\uf2b1";
       public static String youtube = "\uf167";
       public static String youtubeSquare = "\uf431";
@@ -1157,6 +1252,8 @@
         allIcons.put("500px","\uf26e");
         allIcons.put("accessible-icon","\uf368");
         allIcons.put("accusoft","\uf369");
+        allIcons.put("acquisitions-incorporated","\uf6af");
+        allIcons.put("ad","\uf641");
         allIcons.put("address-book","\uf2b9");
         allIcons.put("address-card","\uf2bb");
         allIcons.put("adjust","\uf042");
@@ -1169,6 +1266,7 @@
         allIcons.put("align-justify","\uf039");
         allIcons.put("align-left","\uf036");
         allIcons.put("align-right","\uf038");
+        allIcons.put("alipay","\uf642");
         allIcons.put("allergies","\uf461");
         allIcons.put("amazon","\uf270");
         allIcons.put("amazon-pay","\uf42c");
@@ -1189,6 +1287,7 @@
         allIcons.put("angry","\uf556");
         allIcons.put("angrycreative","\uf36e");
         allIcons.put("angular","\uf420");
+        allIcons.put("ankh","\uf644");
         allIcons.put("app-store","\uf36f");
         allIcons.put("app-store-ios","\uf370");
         allIcons.put("apper","\uf371");
@@ -1248,6 +1347,7 @@
         allIcons.put("bell","\uf0f3");
         allIcons.put("bell-slash","\uf1f6");
         allIcons.put("bezier-curve","\uf55b");
+        allIcons.put("bible","\uf647");
         allIcons.put("bicycle","\uf206");
         allIcons.put("bimobject","\uf378");
         allIcons.put("binoculars","\uf1e5");
@@ -1258,6 +1358,7 @@
         allIcons.put("black-tie","\uf27e");
         allIcons.put("blackberry","\uf37b");
         allIcons.put("blender","\uf517");
+        allIcons.put("blender-phone","\uf6b6");
         allIcons.put("blind","\uf29d");
         allIcons.put("blogger","\uf37c");
         allIcons.put("blogger-b","\uf37d");
@@ -1269,6 +1370,7 @@
         allIcons.put("bone","\uf5d7");
         allIcons.put("bong","\uf55c");
         allIcons.put("book","\uf02d");
+        allIcons.put("book-dead","\uf6b7");
         allIcons.put("book-open","\uf518");
         allIcons.put("book-reader","\uf5da");
         allIcons.put("bookmark","\uf02e");
@@ -1292,6 +1394,7 @@
         allIcons.put("buromobelexperte","\uf37f");
         allIcons.put("bus","\uf207");
         allIcons.put("bus-alt","\uf55e");
+        allIcons.put("business-time","\uf64a");
         allIcons.put("buysellads","\uf20d");
         allIcons.put("calculator","\uf1ec");
         allIcons.put("calendar","\uf133");
@@ -1302,6 +1405,7 @@
         allIcons.put("calendar-times","\uf273");
         allIcons.put("camera","\uf030");
         allIcons.put("camera-retro","\uf083");
+        allIcons.put("campground","\uf6bb");
         allIcons.put("cannabis","\uf55f");
         allIcons.put("capsules","\uf46b");
         allIcons.put("car","\uf1b9");
@@ -1319,6 +1423,7 @@
         allIcons.put("caret-up","\uf0d8");
         allIcons.put("cart-arrow-down","\uf218");
         allIcons.put("cart-plus","\uf217");
+        allIcons.put("cat","\uf6be");
         allIcons.put("cc-amazon-pay","\uf42d");
         allIcons.put("cc-amex","\uf1f3");
         allIcons.put("cc-apple-pay","\uf416");
@@ -1331,6 +1436,7 @@
         allIcons.put("cc-visa","\uf1f0");
         allIcons.put("centercode","\uf380");
         allIcons.put("certificate","\uf0a3");
+        allIcons.put("chair","\uf6c0");
         allIcons.put("chalkboard","\uf51b");
         allIcons.put("chalkboard-teacher","\uf51c");
         allIcons.put("charging-station","\uf5e7");
@@ -1363,6 +1469,7 @@
         allIcons.put("church","\uf51d");
         allIcons.put("circle","\uf111");
         allIcons.put("circle-notch","\uf1ce");
+        allIcons.put("city","\uf64f");
         allIcons.put("clipboard","\uf328");
         allIcons.put("clipboard-check","\uf46c");
         allIcons.put("clipboard-list","\uf46d");
@@ -1371,6 +1478,8 @@
         allIcons.put("closed-captioning","\uf20a");
         allIcons.put("cloud","\uf0c2");
         allIcons.put("cloud-download-alt","\uf381");
+        allIcons.put("cloud-moon","\uf6c3");
+        allIcons.put("cloud-sun","\uf6c4");
         allIcons.put("cloud-upload-alt","\uf382");
         allIcons.put("cloudscale","\uf383");
         allIcons.put("cloudsmith","\uf384");
@@ -1387,9 +1496,11 @@
         allIcons.put("columns","\uf0db");
         allIcons.put("comment","\uf075");
         allIcons.put("comment-alt","\uf27a");
+        allIcons.put("comment-dollar","\uf651");
         allIcons.put("comment-dots","\uf4ad");
         allIcons.put("comment-slash","\uf4b3");
         allIcons.put("comments","\uf086");
+        allIcons.put("comments-dollar","\uf653");
         allIcons.put("compact-disc","\uf51f");
         allIcons.put("compass","\uf14e");
         allIcons.put("compress","\uf066");
@@ -1415,9 +1526,12 @@
         allIcons.put("creative-commons-sampling","\uf4f0");
         allIcons.put("creative-commons-sampling-plus","\uf4f1");
         allIcons.put("creative-commons-share","\uf4f2");
+        allIcons.put("creative-commons-zero","\uf4f3");
         allIcons.put("credit-card","\uf09d");
+        allIcons.put("critical-role","\uf6c9");
         allIcons.put("crop","\uf125");
         allIcons.put("crop-alt","\uf565");
+        allIcons.put("cross","\uf654");
         allIcons.put("crosshairs","\uf05b");
         allIcons.put("crow","\uf520");
         allIcons.put("crown","\uf521");
@@ -1435,9 +1549,13 @@
         allIcons.put("deploydog","\uf38e");
         allIcons.put("deskpro","\uf38f");
         allIcons.put("desktop","\uf108");
+        allIcons.put("dev","\uf6cc");
         allIcons.put("deviantart","\uf1bd");
+        allIcons.put("dharmachakra","\uf655");
         allIcons.put("diagnoses","\uf470");
         allIcons.put("dice","\uf522");
+        allIcons.put("dice-d20","\uf6cf");
+        allIcons.put("dice-d6","\uf6d1");
         allIcons.put("dice-five","\uf523");
         allIcons.put("dice-four","\uf524");
         allIcons.put("dice-one","\uf525");
@@ -1455,6 +1573,7 @@
         allIcons.put("dna","\uf471");
         allIcons.put("dochub","\uf394");
         allIcons.put("docker","\uf395");
+        allIcons.put("dog","\uf6d3");
         allIcons.put("dollar-sign","\uf155");
         allIcons.put("dolly","\uf472");
         allIcons.put("dolly-flatbed","\uf474");
@@ -1466,14 +1585,17 @@
         allIcons.put("download","\uf019");
         allIcons.put("draft2digital","\uf396");
         allIcons.put("drafting-compass","\uf568");
+        allIcons.put("dragon","\uf6d5");
         allIcons.put("draw-polygon","\uf5ee");
         allIcons.put("dribbble","\uf17d");
         allIcons.put("dribbble-square","\uf397");
         allIcons.put("dropbox","\uf16b");
         allIcons.put("drum","\uf569");
         allIcons.put("drum-steelpan","\uf56a");
+        allIcons.put("drumstick-bite","\uf6d7");
         allIcons.put("drupal","\uf1a9");
         allIcons.put("dumbbell","\uf44b");
+        allIcons.put("dungeon","\uf6d9");
         allIcons.put("dyalog","\uf399");
         allIcons.put("earlybirds","\uf39a");
         allIcons.put("ebay","\uf4f4");
@@ -1488,6 +1610,7 @@
         allIcons.put("empire","\uf1d1");
         allIcons.put("envelope","\uf0e0");
         allIcons.put("envelope-open","\uf2b6");
+        allIcons.put("envelope-open-text","\uf658");
         allIcons.put("envelope-square","\uf199");
         allIcons.put("envira","\uf299");
         allIcons.put("equals","\uf52c");
@@ -1512,6 +1635,7 @@
         allIcons.put("facebook-f","\uf39e");
         allIcons.put("facebook-messenger","\uf39f");
         allIcons.put("facebook-square","\uf082");
+        allIcons.put("fantasy-flight-games","\uf6dc");
         allIcons.put("fast-backward","\uf049");
         allIcons.put("fast-forward","\uf050");
         allIcons.put("fax","\uf1ac");
@@ -1525,6 +1649,7 @@
         allIcons.put("file-audio","\uf1c7");
         allIcons.put("file-code","\uf1c9");
         allIcons.put("file-contract","\uf56c");
+        allIcons.put("file-csv","\uf6dd");
         allIcons.put("file-download","\uf56d");
         allIcons.put("file-excel","\uf1c3");
         allIcons.put("file-export","\uf56e");
@@ -1554,6 +1679,7 @@
         allIcons.put("first-order-alt","\uf50a");
         allIcons.put("firstdraft","\uf3a1");
         allIcons.put("fish","\uf578");
+        allIcons.put("fist-raised","\uf6de");
         allIcons.put("flag","\uf024");
         allIcons.put("flag-checkered","\uf11e");
         allIcons.put("flask","\uf0c3");
@@ -1562,7 +1688,9 @@
         allIcons.put("flushed","\uf579");
         allIcons.put("fly","\uf417");
         allIcons.put("folder","\uf07b");
+        allIcons.put("folder-minus","\uf65d");
         allIcons.put("folder-open","\uf07c");
+        allIcons.put("folder-plus","\uf65e");
         allIcons.put("font","\uf031");
         allIcons.put("font-awesome","\uf2b4");
         allIcons.put("font-awesome-alt","\uf35c");
@@ -1582,6 +1710,7 @@
         allIcons.put("frown","\uf119");
         allIcons.put("frown-open","\uf57a");
         allIcons.put("fulcrum","\uf50b");
+        allIcons.put("funnel-dollar","\uf662");
         allIcons.put("futbol","\uf1e3");
         allIcons.put("galactic-republic","\uf50c");
         allIcons.put("galactic-senate","\uf50d");
@@ -1593,6 +1722,7 @@
         allIcons.put("get-pocket","\uf265");
         allIcons.put("gg","\uf260");
         allIcons.put("gg-circle","\uf261");
+        allIcons.put("ghost","\uf6e2");
         allIcons.put("gift","\uf06b");
         allIcons.put("git","\uf1d3");
         allIcons.put("git-square","\uf1d2");
@@ -1622,6 +1752,7 @@
         allIcons.put("google-plus-g","\uf0d5");
         allIcons.put("google-plus-square","\uf0d4");
         allIcons.put("google-wallet","\uf1ee");
+        allIcons.put("gopuram","\uf664");
         allIcons.put("graduation-cap","\uf19d");
         allIcons.put("gratipay","\uf184");
         allIcons.put("grav","\uf2d6");
@@ -1650,6 +1781,8 @@
         allIcons.put("hacker-news","\uf1d4");
         allIcons.put("hacker-news-square","\uf3af");
         allIcons.put("hackerrank","\uf5f7");
+        allIcons.put("hammer","\uf6e3");
+        allIcons.put("hamsa","\uf665");
         allIcons.put("hand-holding","\uf4bd");
         allIcons.put("hand-holding-heart","\uf4be");
         allIcons.put("hand-holding-usd","\uf4c0");
@@ -1667,7 +1800,10 @@
         allIcons.put("hands","\uf4c2");
         allIcons.put("hands-helping","\uf4c4");
         allIcons.put("handshake","\uf2b5");
+        allIcons.put("hanukiah","\uf6e6");
         allIcons.put("hashtag","\uf292");
+        allIcons.put("hat-wizard","\uf6e8");
+        allIcons.put("haykal","\uf666");
         allIcons.put("hdd","\uf0a0");
         allIcons.put("heading","\uf1dc");
         allIcons.put("headphones","\uf025");
@@ -1677,6 +1813,8 @@
         allIcons.put("heartbeat","\uf21e");
         allIcons.put("helicopter","\uf533");
         allIcons.put("highlighter","\uf591");
+        allIcons.put("hiking","\uf6ec");
+        allIcons.put("hippo","\uf6ed");
         allIcons.put("hips","\uf452");
         allIcons.put("hire-a-helper","\uf3b0");
         allIcons.put("history","\uf1da");
@@ -1684,6 +1822,7 @@
         allIcons.put("home","\uf015");
         allIcons.put("hooli","\uf427");
         allIcons.put("hornbill","\uf592");
+        allIcons.put("horse","\uf6f0");
         allIcons.put("hospital","\uf0f8");
         allIcons.put("hospital-alt","\uf47d");
         allIcons.put("hospital-symbol","\uf47e");
@@ -1694,7 +1833,9 @@
         allIcons.put("hourglass-end","\uf253");
         allIcons.put("hourglass-half","\uf252");
         allIcons.put("hourglass-start","\uf251");
+        allIcons.put("house-damage","\uf6f1");
         allIcons.put("houzz","\uf27c");
+        allIcons.put("hryvnia","\uf6f2");
         allIcons.put("html5","\uf13b");
         allIcons.put("hubspot","\uf3b2");
         allIcons.put("i-cursor","\uf246");
@@ -1717,19 +1858,23 @@
         allIcons.put("itunes","\uf3b4");
         allIcons.put("itunes-note","\uf3b5");
         allIcons.put("java","\uf4e4");
+        allIcons.put("jedi","\uf669");
         allIcons.put("jedi-order","\uf50e");
         allIcons.put("jenkins","\uf3b6");
         allIcons.put("joget","\uf3b7");
         allIcons.put("joint","\uf595");
         allIcons.put("joomla","\uf1aa");
+        allIcons.put("journal-whills","\uf66a");
         allIcons.put("js","\uf3b8");
         allIcons.put("js-square","\uf3b9");
         allIcons.put("jsfiddle","\uf1cc");
+        allIcons.put("kaaba","\uf66b");
         allIcons.put("kaggle","\uf5fa");
         allIcons.put("key","\uf084");
         allIcons.put("keybase","\uf4f5");
         allIcons.put("keyboard","\uf11c");
         allIcons.put("keycdn","\uf3ba");
+        allIcons.put("khanda","\uf66d");
         allIcons.put("kickstarter","\uf3bb");
         allIcons.put("kickstarter-k","\uf3bc");
         allIcons.put("kiss","\uf596");
@@ -1737,6 +1882,7 @@
         allIcons.put("kiss-wink-heart","\uf598");
         allIcons.put("kiwi-bird","\uf535");
         allIcons.put("korvue","\uf42f");
+        allIcons.put("landmark","\uf66f");
         allIcons.put("language","\uf1ab");
         allIcons.put("laptop","\uf109");
         allIcons.put("laptop-code","\uf5fc");
@@ -1782,6 +1928,7 @@
         allIcons.put("magento","\uf3c4");
         allIcons.put("magic","\uf0d0");
         allIcons.put("magnet","\uf076");
+        allIcons.put("mail-bulk","\uf674");
         allIcons.put("mailchimp","\uf59e");
         allIcons.put("male","\uf183");
         allIcons.put("mandalorian","\uf50f");
@@ -1799,6 +1946,7 @@
         allIcons.put("mars-stroke","\uf229");
         allIcons.put("mars-stroke-h","\uf22b");
         allIcons.put("mars-stroke-v","\uf22a");
+        allIcons.put("mask","\uf6fa");
         allIcons.put("mastodon","\uf4f6");
         allIcons.put("maxcdn","\uf136");
         allIcons.put("medal","\uf5a2");
@@ -1813,6 +1961,7 @@
         allIcons.put("meh-blank","\uf5a4");
         allIcons.put("meh-rolling-eyes","\uf5a5");
         allIcons.put("memory","\uf538");
+        allIcons.put("menorah","\uf676");
         allIcons.put("mercury","\uf223");
         allIcons.put("microchip","\uf2db");
         allIcons.put("microphone","\uf130");
@@ -1840,11 +1989,14 @@
         allIcons.put("monument","\uf5a6");
         allIcons.put("moon","\uf186");
         allIcons.put("mortar-pestle","\uf5a7");
+        allIcons.put("mosque","\uf678");
         allIcons.put("motorcycle","\uf21c");
+        allIcons.put("mountain","\uf6fc");
         allIcons.put("mouse-pointer","\uf245");
         allIcons.put("music","\uf001");
         allIcons.put("napster","\uf3d2");
         allIcons.put("neos","\uf612");
+        allIcons.put("network-wired","\uf6ff");
         allIcons.put("neuter","\uf22c");
         allIcons.put("newspaper","\uf1ea");
         allIcons.put("nimblr","\uf5a8");
@@ -1862,11 +2014,13 @@
         allIcons.put("odnoklassniki-square","\uf264");
         allIcons.put("oil-can","\uf613");
         allIcons.put("old-republic","\uf510");
+        allIcons.put("om","\uf679");
         allIcons.put("opencart","\uf23d");
         allIcons.put("openid","\uf19b");
         allIcons.put("opera","\uf26a");
         allIcons.put("optin-monster","\uf23c");
         allIcons.put("osi","\uf41a");
+        allIcons.put("otter","\uf700");
         allIcons.put("outdent","\uf03b");
         allIcons.put("page4","\uf3d7");
         allIcons.put("pagelines","\uf18c");
@@ -1881,12 +2035,14 @@
         allIcons.put("paragraph","\uf1dd");
         allIcons.put("parking","\uf540");
         allIcons.put("passport","\uf5ab");
+        allIcons.put("pastafarianism","\uf67b");
         allIcons.put("paste","\uf0ea");
         allIcons.put("patreon","\uf3d9");
         allIcons.put("pause","\uf04c");
         allIcons.put("pause-circle","\uf28b");
         allIcons.put("paw","\uf1b0");
         allIcons.put("paypal","\uf1ed");
+        allIcons.put("peace","\uf67c");
         allIcons.put("pen","\uf304");
         allIcons.put("pen-alt","\uf305");
         allIcons.put("pen-fancy","\uf5ac");
@@ -1894,6 +2050,7 @@
         allIcons.put("pen-square","\uf14b");
         allIcons.put("pencil-alt","\uf303");
         allIcons.put("pencil-ruler","\uf5ae");
+        allIcons.put("penny-arcade","\uf704");
         allIcons.put("people-carry","\uf4ce");
         allIcons.put("percent","\uf295");
         allIcons.put("percentage","\uf541");
@@ -1915,6 +2072,7 @@
         allIcons.put("pinterest","\uf0d2");
         allIcons.put("pinterest-p","\uf231");
         allIcons.put("pinterest-square","\uf0d3");
+        allIcons.put("place-of-worship","\uf67f");
         allIcons.put("plane","\uf072");
         allIcons.put("plane-arrival","\uf5af");
         allIcons.put("plane-departure","\uf5b0");
@@ -1926,11 +2084,15 @@
         allIcons.put("plus-circle","\uf055");
         allIcons.put("plus-square","\uf0fe");
         allIcons.put("podcast","\uf2ce");
+        allIcons.put("poll","\uf681");
+        allIcons.put("poll-h","\uf682");
         allIcons.put("poo","\uf2fe");
         allIcons.put("poop","\uf619");
         allIcons.put("portrait","\uf3e0");
         allIcons.put("pound-sign","\uf154");
         allIcons.put("power-off","\uf011");
+        allIcons.put("pray","\uf683");
+        allIcons.put("praying-hands","\uf684");
         allIcons.put("prescription","\uf5b1");
         allIcons.put("prescription-bottle","\uf485");
         allIcons.put("prescription-bottle-alt","\uf486");
@@ -1950,6 +2112,7 @@
         allIcons.put("quora","\uf2c4");
         allIcons.put("quote-left","\uf10d");
         allIcons.put("quote-right","\uf10e");
+        allIcons.put("quran","\uf687");
         allIcons.put("r-project","\uf4f7");
         allIcons.put("random","\uf074");
         allIcons.put("ravelry","\uf2d9");
@@ -1975,6 +2138,7 @@
         allIcons.put("retweet","\uf079");
         allIcons.put("rev","\uf5b2");
         allIcons.put("ribbon","\uf4d6");
+        allIcons.put("ring","\uf70b");
         allIcons.put("road","\uf018");
         allIcons.put("robot","\uf544");
         allIcons.put("rocket","\uf135");
@@ -1988,6 +2152,7 @@
         allIcons.put("ruler-combined","\uf546");
         allIcons.put("ruler-horizontal","\uf547");
         allIcons.put("ruler-vertical","\uf548");
+        allIcons.put("running","\uf70c");
         allIcons.put("rupee-sign","\uf156");
         allIcons.put("sad-cry","\uf5b3");
         allIcons.put("sad-tear","\uf5b4");
@@ -1998,7 +2163,10 @@
         allIcons.put("school","\uf549");
         allIcons.put("screwdriver","\uf54a");
         allIcons.put("scribd","\uf28a");
+        allIcons.put("scroll","\uf70e");
         allIcons.put("search","\uf002");
+        allIcons.put("search-dollar","\uf688");
+        allIcons.put("search-location","\uf689");
         allIcons.put("search-minus","\uf010");
         allIcons.put("search-plus","\uf00e");
         allIcons.put("searchengin","\uf3eb");
@@ -2035,10 +2203,12 @@
         allIcons.put("sitemap","\uf0e8");
         allIcons.put("sith","\uf512");
         allIcons.put("skull","\uf54c");
+        allIcons.put("skull-crossbones","\uf714");
         allIcons.put("skyatlas","\uf216");
         allIcons.put("skype","\uf17e");
         allIcons.put("slack","\uf198");
         allIcons.put("slack-hash","\uf3ef");
+        allIcons.put("slash","\uf715");
         allIcons.put("sliders-h","\uf1de");
         allIcons.put("slideshare","\uf1e7");
         allIcons.put("smile","\uf118");
@@ -2050,6 +2220,7 @@
         allIcons.put("snapchat-ghost","\uf2ac");
         allIcons.put("snapchat-square","\uf2ad");
         allIcons.put("snowflake","\uf2dc");
+        allIcons.put("socks","\uf696");
         allIcons.put("solar-panel","\uf5ba");
         allIcons.put("sort","\uf0dc");
         allIcons.put("sort-alpha-down","\uf15d");
@@ -2064,19 +2235,23 @@
         allIcons.put("spa","\uf5bb");
         allIcons.put("space-shuttle","\uf197");
         allIcons.put("speakap","\uf3f3");
+        allIcons.put("spider","\uf717");
         allIcons.put("spinner","\uf110");
         allIcons.put("splotch","\uf5bc");
         allIcons.put("spotify","\uf1bc");
         allIcons.put("spray-can","\uf5bd");
         allIcons.put("square","\uf0c8");
         allIcons.put("square-full","\uf45c");
+        allIcons.put("square-root-alt","\uf698");
         allIcons.put("squarespace","\uf5be");
         allIcons.put("stack-exchange","\uf18d");
         allIcons.put("stack-overflow","\uf16c");
         allIcons.put("stamp","\uf5bf");
         allIcons.put("star","\uf005");
+        allIcons.put("star-and-crescent","\uf699");
         allIcons.put("star-half","\uf089");
         allIcons.put("star-half-alt","\uf5c0");
+        allIcons.put("star-of-david","\uf69a");
         allIcons.put("star-of-life","\uf621");
         allIcons.put("staylinked","\uf3f5");
         allIcons.put("steam","\uf1b6");
@@ -2114,6 +2289,7 @@
         allIcons.put("swatchbook","\uf5c3");
         allIcons.put("swimmer","\uf5c4");
         allIcons.put("swimming-pool","\uf5c5");
+        allIcons.put("synagogue","\uf69b");
         allIcons.put("sync","\uf021");
         allIcons.put("sync-alt","\uf2f1");
         allIcons.put("syringe","\uf48e");
@@ -2140,6 +2316,7 @@
         allIcons.put("th","\uf00a");
         allIcons.put("th-large","\uf009");
         allIcons.put("th-list","\uf00b");
+        allIcons.put("the-red-yeti","\uf69d");
         allIcons.put("theater-masks","\uf630");
         allIcons.put("themeco","\uf5c6");
         allIcons.put("themeisle","\uf2b2");
@@ -2160,8 +2337,12 @@
         allIcons.put("tired","\uf5c8");
         allIcons.put("toggle-off","\uf204");
         allIcons.put("toggle-on","\uf205");
+        allIcons.put("toilet-paper","\uf71e");
         allIcons.put("toolbox","\uf552");
         allIcons.put("tooth","\uf5c9");
+        allIcons.put("torah","\uf6a0");
+        allIcons.put("torii-gate","\uf6a1");
+        allIcons.put("tractor","\uf722");
         allIcons.put("trade-federation","\uf513");
         allIcons.put("trademark","\uf25c");
         allIcons.put("traffic-light","\uf637");
@@ -2215,6 +2396,7 @@
         allIcons.put("user-edit","\uf4ff");
         allIcons.put("user-friends","\uf500");
         allIcons.put("user-graduate","\uf501");
+        allIcons.put("user-injured","\uf728");
         allIcons.put("user-lock","\uf502");
         allIcons.put("user-md","\uf0f0");
         allIcons.put("user-minus","\uf503");
@@ -2244,6 +2426,7 @@
         allIcons.put("viber","\uf409");
         allIcons.put("video","\uf03d");
         allIcons.put("video-slash","\uf4e2");
+        allIcons.put("vihara","\uf6a7");
         allIcons.put("vimeo","\uf40a");
         allIcons.put("vimeo-square","\uf194");
         allIcons.put("vimeo-v","\uf27d");
@@ -2252,6 +2435,7 @@
         allIcons.put("vnv","\uf40b");
         allIcons.put("volleyball-ball","\uf45f");
         allIcons.put("volume-down","\uf027");
+        allIcons.put("volume-mute","\uf6a9");
         allIcons.put("volume-off","\uf026");
         allIcons.put("volume-up","\uf028");
         allIcons.put("vuejs","\uf41f");
@@ -2269,14 +2453,17 @@
         allIcons.put("whmcs","\uf40d");
         allIcons.put("wifi","\uf1eb");
         allIcons.put("wikipedia-w","\uf266");
+        allIcons.put("wind","\uf72e");
         allIcons.put("window-close","\uf410");
         allIcons.put("window-maximize","\uf2d0");
         allIcons.put("window-minimize","\uf2d1");
         allIcons.put("window-restore","\uf2d2");
         allIcons.put("windows","\uf17a");
+        allIcons.put("wine-bottle","\uf72f");
         allIcons.put("wine-glass","\uf4e3");
         allIcons.put("wine-glass-alt","\uf5ce");
         allIcons.put("wix","\uf5cf");
+        allIcons.put("wizards-of-the-coast","\uf730");
         allIcons.put("wolf-pack-battalion","\uf514");
         allIcons.put("won-sign","\uf159");
         allIcons.put("wordpress","\uf19a");
@@ -2295,20 +2482,28 @@
         allIcons.put("yandex-international","\uf414");
         allIcons.put("yelp","\uf1e9");
         allIcons.put("yen-sign","\uf157");
+        allIcons.put("yin-yang","\uf6ad");
         allIcons.put("yoast","\uf2b1");
         allIcons.put("youtube","\uf167");
         allIcons.put("youtube-square","\uf431");
         allIcons.put("zhihu","\uf63f");
       } 
   
-      public static ArrayList<String> solidIcons = new ArrayList<>(Arrays.asList("addressBook","addressCard","adjust","airFreshener","alignCenter","alignJustify","alignLeft","alignRight","allergies","ambulance","americanSignLanguageInterpreting","anchor","angleDoubleDown","angleDoubleLeft","angleDoubleRight","angleDoubleUp","angleDown","angleLeft","angleRight","angleUp","angry","appleAlt","archive","archway","arrowAltCircleDown","arrowAltCircleLeft","arrowAltCircleRight","arrowAltCircleUp","arrowCircleDown","arrowCircleLeft","arrowCircleRight","arrowCircleUp","arrowDown","arrowLeft","arrowRight","arrowUp","arrowsAlt","arrowsAltH","arrowsAltV","assistiveListeningSystems","asterisk","at","atlas","atom","audioDescription","award","backspace","backward","balanceScale","ban","bandAid","barcode","bars","baseballBall","basketballBall","bath","batteryEmpty","batteryFull","batteryHalf","batteryQuarter","batteryThreeQuarters","bed","beer","bell","bellSlash","bezierCurve","bicycle","binoculars","birthdayCake","blender","blind","bold","bolt","bomb","bone","bong","book","bookOpen","bookReader","bookmark","bowlingBall","box","boxOpen","boxes","braille","brain","briefcase","briefcaseMedical","broadcastTower","broom","brush","bug","building","bullhorn","bullseye","burn","bus","busAlt","calculator","calendar","calendarAlt","calendarCheck","calendarMinus","calendarPlus","calendarTimes","camera","cameraRetro","cannabis","capsules","car","carAlt","carBattery","carCrash","carSide","caretDown","caretLeft","caretRight","caretSquareDown","caretSquareLeft","caretSquareRight","caretSquareUp","caretUp","cartArrowDown","cartPlus","certificate","chalkboard","chalkboardTeacher","chargingStation","chartArea","chartBar","chartLine","chartPie","check","checkCircle","checkDouble","checkSquare","chess","chessBishop","chessBoard","chessKing","chessKnight","chessPawn","chessQueen","chessRook","chevronCircleDown","chevronCircleLeft","chevronCircleRight","chevronCircleUp","chevronDown","chevronLeft","chevronRight","chevronUp","child","church","circle","circleNotch","clipboard","clipboardCheck","clipboardList","clock","clone","closedCaptioning","cloud","cloudDownloadAlt","cloudUploadAlt","cocktail","code","codeBranch","coffee","cog","cogs","coins","columns","comment","commentAlt","commentDots","commentSlash","comments","compactDisc","compass","compress","conciergeBell","cookie","cookieBite","copy","copyright","couch","creditCard","crop","cropAlt","crosshairs","crow","crown","cube","cubes","cut","database","deaf","desktop","diagnoses","dice","diceFive","diceFour","diceOne","diceSix","diceThree","diceTwo","digitalTachograph","directions","divide","dizzy","dna","dollarSign","dolly","dollyFlatbed","donate","doorClosed","doorOpen","dotCircle","dove","download","draftingCompass","drawPolygon","drum","drumSteelpan","dumbbell","edit","eject","ellipsisH","ellipsisV","envelope","envelopeOpen","envelopeSquare","equals","eraser","euroSign","exchangeAlt","exclamation","exclamationCircle","exclamationTriangle","expand","expandArrowsAlt","externalLinkAlt","externalLinkSquareAlt","eye","eyeDropper","eyeSlash","fastBackward","fastForward","fax","feather","featherAlt","female","fighterJet","file","fileAlt","fileArchive","fileAudio","fileCode","fileContract","fileDownload","fileExcel","fileExport","fileImage","fileImport","fileInvoice","fileInvoiceDollar","fileMedical","fileMedicalAlt","filePdf","filePowerpoint","filePrescription","fileSignature","fileUpload","fileVideo","fileWord","fill","fillDrip","film","filter","fingerprint","fire","fireExtinguisher","firstAid","fish","flag","flagCheckered","flask","flushed","folder","folderOpen","font","fontAwesomeLogoFull","footballBall","forward","frog","frown","frownOpen","futbol","gamepad","gasPump","gavel","gem","genderless","gift","glassMartini","glassMartiniAlt","glasses","globe","globeAfrica","globeAmericas","globeAsia","golfBall","graduationCap","greaterThan","greaterThanEqual","grimace","grin","grinAlt","grinBeam","grinBeamSweat","grinHearts","grinSquint","grinSquintTears","grinStars","grinTears","grinTongue","grinTongueSquint","grinTongueWink","grinWink","gripHorizontal","gripVertical","hSquare","handHolding","handHoldingHeart","handHoldingUsd","handLizard","handPaper","handPeace","handPointDown","handPointLeft","handPointRight","handPointUp","handPointer","handRock","handScissors","handSpock","hands","handsHelping","handshake","hashtag","hdd","heading","headphones","headphonesAlt","headset","heart","heartbeat","helicopter","highlighter","history","hockeyPuck","home","hospital","hospitalAlt","hospitalSymbol","hotTub","hotel","hourglass","hourglassEnd","hourglassHalf","hourglassStart","iCursor","idBadge","idCard","idCardAlt","image","images","inbox","indent","industry","infinity","info","infoCircle","italic","joint","key","keyboard","kiss","kissBeam","kissWinkHeart","kiwiBird","language","laptop","laptopCode","laugh","laughBeam","laughSquint","laughWink","layerGroup","leaf","lemon","lessThan","lessThanEqual","levelDownAlt","levelUpAlt","lifeRing","lightbulb","link","liraSign","list","listAlt","listOl","listUl","locationArrow","lock","lockOpen","longArrowAltDown","longArrowAltLeft","longArrowAltRight","longArrowAltUp","lowVision","luggageCart","magic","magnet","male","map","mapMarked","mapMarkedAlt","mapMarker","mapMarkerAlt","mapPin","mapSigns","marker","mars","marsDouble","marsStroke","marsStrokeH","marsStrokeV","medal","medkit","meh","mehBlank","mehRollingEyes","memory","mercury","microchip","microphone","microphoneAlt","microphoneAltSlash","microphoneSlash","microscope","minus","minusCircle","minusSquare","mobile","mobileAlt","moneyBill","moneyBillAlt","moneyBillWave","moneyBillWaveAlt","moneyCheck","moneyCheckAlt","monument","moon","mortarPestle","motorcycle","mousePointer","music","neuter","newspaper","notEqual","notesMedical","objectGroup","objectUngroup","oilCan","outdent","paintBrush","paintRoller","palette","pallet","paperPlane","paperclip","parachuteBox","paragraph","parking","passport","paste","pause","pauseCircle","paw","pen","penAlt","penFancy","penNib","penSquare","pencilAlt","pencilRuler","peopleCarry","percent","percentage","phone","phoneSlash","phoneSquare","phoneVolume","piggyBank","pills","plane","planeArrival","planeDeparture","play","playCircle","plug","plus","plusCircle","plusSquare","podcast","poo","poop","portrait","poundSign","powerOff","prescription","prescriptionBottle","prescriptionBottleAlt","print","procedures","projectDiagram","puzzlePiece","qrcode","question","questionCircle","quidditch","quoteLeft","quoteRight","random","receipt","recycle","redo","redoAlt","registered","reply","replyAll","retweet","ribbon","road","robot","rocket","route","rss","rssSquare","rubleSign","ruler","rulerCombined","rulerHorizontal","rulerVertical","rupeeSign","sadCry","sadTear","save","school","screwdriver","search","searchMinus","searchPlus","seedling","server","shapes","share","shareAlt","shareAltSquare","shareSquare","shekelSign","shieldAlt","ship","shippingFast","shoePrints","shoppingBag","shoppingBasket","shoppingCart","shower","shuttleVan","sign","signInAlt","signLanguage","signOutAlt","signal","signature","sitemap","skull","slidersH","smile","smileBeam","smileWink","smoking","smokingBan","snowflake","solarPanel","sort","sortAlphaDown","sortAlphaUp","sortAmountDown","sortAmountUp","sortDown","sortNumericDown","sortNumericUp","sortUp","spa","spaceShuttle","spinner","splotch","sprayCan","square","squareFull","stamp","star","starHalf","starHalfAlt","starOfLife","stepBackward","stepForward","stethoscope","stickyNote","stop","stopCircle","stopwatch","store","storeAlt","stream","streetView","strikethrough","stroopwafel","subscript","subway","suitcase","suitcaseRolling","sun","superscript","surprise","swatchbook","swimmer","swimmingPool","sync","syncAlt","syringe","table","tableTennis","tablet","tabletAlt","tablets","tachometerAlt","tag","tags","tape","tasks","taxi","teeth","teethOpen","terminal","textHeight","textWidth","th","thLarge","thList","theaterMasks","thermometer","thermometerEmpty","thermometerFull","thermometerHalf","thermometerQuarter","thermometerThreeQuarters","thumbsDown","thumbsUp","thumbtack","ticketAlt","times","timesCircle","tint","tintSlash","tired","toggleOff","toggleOn","toolbox","tooth","trademark","trafficLight","train","transgender","transgenderAlt","trash","trashAlt","tree","trophy","truck","truckLoading","truckMonster","truckMoving","truckPickup","tshirt","tty","tv","umbrella","umbrellaBeach","underline","undo","undoAlt","universalAccess","university","unlink","unlock","unlockAlt","upload","user","userAlt","userAltSlash","userAstronaut","userCheck","userCircle","userClock","userCog","userEdit","userFriends","userGraduate","userLock","userMd","userMinus","userNinja","userPlus","userSecret","userShield","userSlash","userTag","userTie","userTimes","users","usersCog","utensilSpoon","utensils","vectorSquare","venus","venusDouble","venusMars","vial","vials","video","videoSlash","volleyballBall","volumeDown","volumeOff","volumeUp","walking","wallet","warehouse","weight","weightHanging","wheelchair","wifi","windowClose","windowMaximize","windowMinimize","windowRestore","wineGlass","wineGlassAlt","wonSign","wrench","xRay","yenSign"));
-      public static ArrayList<String> regularIcons = new ArrayList<>(Arrays.asList("addressBook","addressCard","angry","arrowAltCircleDown","arrowAltCircleLeft","arrowAltCircleRight","arrowAltCircleUp","bell","bellSlash","bookmark","building","calendar","calendarAlt","calendarCheck","calendarMinus","calendarPlus","calendarTimes","caretSquareDown","caretSquareLeft","caretSquareRight","caretSquareUp","chartBar","checkCircle","checkSquare","circle","clipboard","clock","clone","closedCaptioning","comment","commentAlt","commentDots","comments","compass","copy","copyright","creditCard","dizzy","dotCircle","edit","envelope","envelopeOpen","eye","eyeSlash","file","fileAlt","fileArchive","fileAudio","fileCode","fileExcel","fileImage","filePdf","filePowerpoint","fileVideo","fileWord","flag","flushed","folder","folderOpen","fontAwesomeLogoFull","frown","frownOpen","futbol","gem","grimace","grin","grinAlt","grinBeam","grinBeamSweat","grinHearts","grinSquint","grinSquintTears","grinStars","grinTears","grinTongue","grinTongueSquint","grinTongueWink","grinWink","handLizard","handPaper","handPeace","handPointDown","handPointLeft","handPointRight","handPointUp","handPointer","handRock","handScissors","handSpock","handshake","hdd","heart","hospital","hourglass","idBadge","idCard","image","images","keyboard","kiss","kissBeam","kissWinkHeart","laugh","laughBeam","laughSquint","laughWink","lemon","lifeRing","lightbulb","listAlt","map","meh","mehBlank","mehRollingEyes","minusSquare","moneyBillAlt","moon","newspaper","objectGroup","objectUngroup","paperPlane","pauseCircle","playCircle","plusSquare","questionCircle","registered","sadCry","sadTear","save","shareSquare","smile","smileBeam","smileWink","snowflake","square","star","starHalf","stickyNote","stopCircle","sun","surprise","thumbsDown","thumbsUp","timesCircle","tired","trashAlt","user","userCircle","windowClose","windowMaximize","windowMinimize","windowRestore"));
+      public static ArrayList<String> solidIcons = new ArrayList<>(Arrays.asList("ad","address-book","address-card","adjust","air-freshener","align-center","align-justify","align-left","align-right","allergies","ambulance","american-sign-language-interpreting","anchor","angle-double-down","angle-double-left","angle-double-right","angle-double-up","angle-down","angle-left","angle-right","angle-up","angry","ankh","apple-alt","archive","archway","arrow-alt-circle-down","arrow-alt-circle-left","arrow-alt-circle-right","arrow-alt-circle-up","arrow-circle-down","arrow-circle-left","arrow-circle-right","arrow-circle-up","arrow-down","arrow-left","arrow-right","arrow-up","arrows-alt","arrows-alt-h","arrows-alt-v","assistive-listening-systems","asterisk","at","atlas","atom","audio-description","award","backspace","backward","balance-scale","ban","band-aid","barcode","bars","baseball-ball","basketball-ball","bath","battery-empty","battery-full","battery-half","battery-quarter","battery-three-quarters","bed","beer","bell","bell-slash","bezier-curve","bible","bicycle","binoculars","birthday-cake","blender","blender-phone","blind","bold","bolt","bomb","bone","bong","book","book-dead","book-open","book-reader","bookmark","bowling-ball","box","box-open","boxes","braille","brain","briefcase","briefcase-medical","broadcast-tower","broom","brush","bug","building","bullhorn","bullseye","burn","bus","bus-alt","business-time","calculator","calendar","calendar-alt","calendar-check","calendar-minus","calendar-plus","calendar-times","camera","camera-retro","campground","cannabis","capsules","car","car-alt","car-battery","car-crash","car-side","caret-down","caret-left","caret-right","caret-square-down","caret-square-left","caret-square-right","caret-square-up","caret-up","cart-arrow-down","cart-plus","cat","certificate","chair","chalkboard","chalkboard-teacher","charging-station","chart-area","chart-bar","chart-line","chart-pie","check","check-circle","check-double","check-square","chess","chess-bishop","chess-board","chess-king","chess-knight","chess-pawn","chess-queen","chess-rook","chevron-circle-down","chevron-circle-left","chevron-circle-right","chevron-circle-up","chevron-down","chevron-left","chevron-right","chevron-up","child","church","circle","circle-notch","city","clipboard","clipboard-check","clipboard-list","clock","clone","closed-captioning","cloud","cloud-download-alt","cloud-moon","cloud-sun","cloud-upload-alt","cocktail","code","code-branch","coffee","cog","cogs","coins","columns","comment","comment-alt","comment-dollar","comment-dots","comment-slash","comments","comments-dollar","compact-disc","compass","compress","concierge-bell","cookie","cookie-bite","copy","copyright","couch","credit-card","crop","crop-alt","cross","crosshairs","crow","crown","cube","cubes","cut","database","deaf","desktop","dharmachakra","diagnoses","dice","dice-d20","dice-d6","dice-five","dice-four","dice-one","dice-six","dice-three","dice-two","digital-tachograph","directions","divide","dizzy","dna","dog","dollar-sign","dolly","dolly-flatbed","donate","door-closed","door-open","dot-circle","dove","download","drafting-compass","dragon","draw-polygon","drum","drum-steelpan","drumstick-bite","dumbbell","dungeon","edit","eject","ellipsis-h","ellipsis-v","envelope","envelope-open","envelope-open-text","envelope-square","equals","eraser","euro-sign","exchange-alt","exclamation","exclamation-circle","exclamation-triangle","expand","expand-arrows-alt","external-link-alt","external-link-square-alt","eye","eye-dropper","eye-slash","fast-backward","fast-forward","fax","feather","feather-alt","female","fighter-jet","file","file-alt","file-archive","file-audio","file-code","file-contract","file-csv","file-download","file-excel","file-export","file-image","file-import","file-invoice","file-invoice-dollar","file-medical","file-medical-alt","file-pdf","file-powerpoint","file-prescription","file-signature","file-upload","file-video","file-word","fill","fill-drip","film","filter","fingerprint","fire","fire-extinguisher","first-aid","fish","fist-raised","flag","flag-checkered","flask","flushed","folder","folder-minus","folder-open","folder-plus","font","font-awesome-logo-full","football-ball","forward","frog","frown","frown-open","funnel-dollar","futbol","gamepad","gas-pump","gavel","gem","genderless","ghost","gift","glass-martini","glass-martini-alt","glasses","globe","globe-africa","globe-americas","globe-asia","golf-ball","gopuram","graduation-cap","greater-than","greater-than-equal","grimace","grin","grin-alt","grin-beam","grin-beam-sweat","grin-hearts","grin-squint","grin-squint-tears","grin-stars","grin-tears","grin-tongue","grin-tongue-squint","grin-tongue-wink","grin-wink","grip-horizontal","grip-vertical","h-square","hammer","hamsa","hand-holding","hand-holding-heart","hand-holding-usd","hand-lizard","hand-paper","hand-peace","hand-point-down","hand-point-left","hand-point-right","hand-point-up","hand-pointer","hand-rock","hand-scissors","hand-spock","hands","hands-helping","handshake","hanukiah","hashtag","hat-wizard","haykal","hdd","heading","headphones","headphones-alt","headset","heart","heartbeat","helicopter","highlighter","hiking","hippo","history","hockey-puck","home","horse","hospital","hospital-alt","hospital-symbol","hot-tub","hotel","hourglass","hourglass-end","hourglass-half","hourglass-start","house-damage","hryvnia","i-cursor","id-badge","id-card","id-card-alt","image","images","inbox","indent","industry","infinity","info","info-circle","italic","jedi","joint","journal-whills","kaaba","key","keyboard","khanda","kiss","kiss-beam","kiss-wink-heart","kiwi-bird","landmark","language","laptop","laptop-code","laugh","laugh-beam","laugh-squint","laugh-wink","layer-group","leaf","lemon","less-than","less-than-equal","level-down-alt","level-up-alt","life-ring","lightbulb","link","lira-sign","list","list-alt","list-ol","list-ul","location-arrow","lock","lock-open","long-arrow-alt-down","long-arrow-alt-left","long-arrow-alt-right","long-arrow-alt-up","low-vision","luggage-cart","magic","magnet","mail-bulk","male","map","map-marked","map-marked-alt","map-marker","map-marker-alt","map-pin","map-signs","marker","mars","mars-double","mars-stroke","mars-stroke-h","mars-stroke-v","mask","medal","medkit","meh","meh-blank","meh-rolling-eyes","memory","menorah","mercury","microchip","microphone","microphone-alt","microphone-alt-slash","microphone-slash","microscope","minus","minus-circle","minus-square","mobile","mobile-alt","money-bill","money-bill-alt","money-bill-wave","money-bill-wave-alt","money-check","money-check-alt","monument","moon","mortar-pestle","mosque","motorcycle","mountain","mouse-pointer","music","network-wired","neuter","newspaper","not-equal","notes-medical","object-group","object-ungroup","oil-can","om","otter","outdent","paint-brush","paint-roller","palette","pallet","paper-plane","paperclip","parachute-box","paragraph","parking","passport","pastafarianism","paste","pause","pause-circle","paw","peace","pen","pen-alt","pen-fancy","pen-nib","pen-square","pencil-alt","pencil-ruler","people-carry","percent","percentage","phone","phone-slash","phone-square","phone-volume","piggy-bank","pills","place-of-worship","plane","plane-arrival","plane-departure","play","play-circle","plug","plus","plus-circle","plus-square","podcast","poll","poll-h","poo","poop","portrait","pound-sign","power-off","pray","praying-hands","prescription","prescription-bottle","prescription-bottle-alt","print","procedures","project-diagram","puzzle-piece","qrcode","question","question-circle","quidditch","quote-left","quote-right","quran","random","receipt","recycle","redo","redo-alt","registered","reply","reply-all","retweet","ribbon","ring","road","robot","rocket","route","rss","rss-square","ruble-sign","ruler","ruler-combined","ruler-horizontal","ruler-vertical","running","rupee-sign","sad-cry","sad-tear","save","school","screwdriver","scroll","search","search-dollar","search-location","search-minus","search-plus","seedling","server","shapes","share","share-alt","share-alt-square","share-square","shekel-sign","shield-alt","ship","shipping-fast","shoe-prints","shopping-bag","shopping-basket","shopping-cart","shower","shuttle-van","sign","sign-in-alt","sign-language","sign-out-alt","signal","signature","sitemap","skull","skull-crossbones","slash","sliders-h","smile","smile-beam","smile-wink","smoking","smoking-ban","snowflake","socks","solar-panel","sort","sort-alpha-down","sort-alpha-up","sort-amount-down","sort-amount-up","sort-down","sort-numeric-down","sort-numeric-up","sort-up","spa","space-shuttle","spider","spinner","splotch","spray-can","square","square-full","square-root-alt","stamp","star","star-and-crescent","star-half","star-half-alt","star-of-david","star-of-life","step-backward","step-forward","stethoscope","sticky-note","stop","stop-circle","stopwatch","store","store-alt","stream","street-view","strikethrough","stroopwafel","subscript","subway","suitcase","suitcase-rolling","sun","superscript","surprise","swatchbook","swimmer","swimming-pool","synagogue","sync","sync-alt","syringe","table","table-tennis","tablet","tablet-alt","tablets","tachometer-alt","tag","tags","tape","tasks","taxi","teeth","teeth-open","terminal","text-height","text-width","th","th-large","th-list","theater-masks","thermometer","thermometer-empty","thermometer-full","thermometer-half","thermometer-quarter","thermometer-three-quarters","thumbs-down","thumbs-up","thumbtack","ticket-alt","times","times-circle","tint","tint-slash","tired","toggle-off","toggle-on","toilet-paper","toolbox","tooth","torah","torii-gate","tractor","trademark","traffic-light","train","transgender","transgender-alt","trash","trash-alt","tree","trophy","truck","truck-loading","truck-monster","truck-moving","truck-pickup","tshirt","tty","tv","umbrella","umbrella-beach","underline","undo","undo-alt","universal-access","university","unlink","unlock","unlock-alt","upload","user","user-alt","user-alt-slash","user-astronaut","user-check","user-circle","user-clock","user-cog","user-edit","user-friends","user-graduate","user-injured","user-lock","user-md","user-minus","user-ninja","user-plus","user-secret","user-shield","user-slash","user-tag","user-tie","user-times","users","users-cog","utensil-spoon","utensils","vector-square","venus","venus-double","venus-mars","vial","vials","video","video-slash","vihara","volleyball-ball","volume-down","volume-mute","volume-off","volume-up","walking","wallet","warehouse","weight","weight-hanging","wheelchair","wifi","wind","window-close","window-maximize","window-minimize","window-restore","wine-bottle","wine-glass","wine-glass-alt","won-sign","wrench","x-ray","yen-sign","yin-yang"));
+      public static ArrayList<String> regularIcons = new ArrayList<>(Arrays.asList("address-book","address-card","angry","arrow-alt-circle-down","arrow-alt-circle-left","arrow-alt-circle-right","arrow-alt-circle-up","bell","bell-slash","bookmark","building","calendar","calendar-alt","calendar-check","calendar-minus","calendar-plus","calendar-times","caret-square-down","caret-square-left","caret-square-right","caret-square-up","chart-bar","check-circle","check-square","circle","clipboard","clock","clone","closed-captioning","comment","comment-alt","comment-dots","comments","compass","copy","copyright","credit-card","dizzy","dot-circle","edit","envelope","envelope-open","eye","eye-slash","file","file-alt","file-archive","file-audio","file-code","file-excel","file-image","file-pdf","file-powerpoint","file-video","file-word","flag","flushed","folder","folder-open","font-awesome-logo-full","frown","frown-open","futbol","gem","grimace","grin","grin-alt","grin-beam","grin-beam-sweat","grin-hearts","grin-squint","grin-squint-tears","grin-stars","grin-tears","grin-tongue","grin-tongue-squint","grin-tongue-wink","grin-wink","hand-lizard","hand-paper","hand-peace","hand-point-down","hand-point-left","hand-point-right","hand-point-up","hand-pointer","hand-rock","hand-scissors","hand-spock","handshake","hdd","heart","hospital","hourglass","id-badge","id-card","image","images","keyboard","kiss","kiss-beam","kiss-wink-heart","laugh","laugh-beam","laugh-squint","laugh-wink","lemon","life-ring","lightbulb","list-alt","map","meh","meh-blank","meh-rolling-eyes","minus-square","money-bill-alt","moon","newspaper","object-group","object-ungroup","paper-plane","pause-circle","play-circle","plus-square","question-circle","registered","sad-cry","sad-tear","save","share-square","smile","smile-beam","smile-wink","snowflake","square","star","star-half","sticky-note","stop-circle","sun","surprise","thumbs-down","thumbs-up","times-circle","tired","trash-alt","user","user-circle","window-close","window-maximize","window-minimize","window-restore"));
       public static ArrayList<String> lightIcons = new ArrayList<>();
-      public static ArrayList<String> brandIcons = new ArrayList<>(Arrays.asList("_500px","accessibleIcon","accusoft","adn","adversal","affiliatetheme","algolia","amazon","amazonPay","amilia","android","angellist","angrycreative","angular","appStore","appStoreIos","apper","apple","applePay","asymmetrik","audible","autoprefixer","avianex","aviato","aws","bandcamp","behance","behanceSquare","bimobject","bitbucket","bitcoin","bity","blackTie","blackberry","blogger","bloggerB","bluetooth","bluetoothB","btc","buromobelexperte","buysellads","ccAmazonPay","ccAmex","ccApplePay","ccDinersClub","ccDiscover","ccJcb","ccMastercard","ccPaypal","ccStripe","ccVisa","centercode","chrome","cloudscale","cloudsmith","cloudversify","codepen","codiepie","connectdevelop","contao","cpanel","creativeCommons","creativeCommonsBy","creativeCommonsNc","creativeCommonsNcEu","creativeCommonsNcJp","creativeCommonsNd","creativeCommonsPd","creativeCommonsPdAlt","creativeCommonsRemix","creativeCommonsSa","creativeCommonsSampling","creativeCommonsSamplingPlus","creativeCommonsShare","css3","css3Alt","cuttlefish","dAndD","dashcube","delicious","deploydog","deskpro","deviantart","digg","digitalOcean","discord","discourse","dochub","docker","draft2digital","dribbble","dribbbleSquare","dropbox","drupal","dyalog","earlybirds","ebay","edge","elementor","ello","ember","empire","envira","erlang","ethereum","etsy","expeditedssl","facebook","facebookF","facebookMessenger","facebookSquare","firefox","firstOrder","firstOrderAlt","firstdraft","flickr","flipboard","fly","fontAwesome","fontAwesomeAlt","fontAwesomeFlag","fontAwesomeLogoFull","fonticons","fonticonsFi","fortAwesome","fortAwesomeAlt","forumbee","foursquare","freeCodeCamp","freebsd","fulcrum","galacticRepublic","galacticSenate","getPocket","gg","ggCircle","git","gitSquare","github","githubAlt","githubSquare","gitkraken","gitlab","gitter","glide","glideG","gofore","goodreads","goodreadsG","google","googleDrive","googlePlay","googlePlus","googlePlusG","googlePlusSquare","googleWallet","gratipay","grav","gripfire","grunt","gulp","hackerNews","hackerNewsSquare","hackerrank","hips","hireAHelper","hooli","hornbill","hotjar","houzz","html5","hubspot","imdb","instagram","internetExplorer","ioxhost","itunes","itunesNote","java","jediOrder","jenkins","joget","joomla","js","jsSquare","jsfiddle","kaggle","keybase","keycdn","kickstarter","kickstarterK","korvue","laravel","lastfm","lastfmSquare","leanpub","less","line","linkedin","linkedinIn","linode","linux","lyft","magento","mailchimp","mandalorian","markdown","mastodon","maxcdn","medapps","medium","mediumM","medrt","meetup","megaport","microsoft","mix","mixcloud","mizuni","modx","monero","napster","neos","nimblr","nintendoSwitch","node","nodeJs","npm","ns8","nutritionix","odnoklassniki","odnoklassnikiSquare","oldRepublic","opencart","openid","opera","optinMonster","osi","page4","pagelines","palfed","patreon","paypal","periscope","phabricator","phoenixFramework","phoenixSquadron","php","piedPiper","piedPiperAlt","piedPiperHat","piedPiperPp","pinterest","pinterestP","pinterestSquare","playstation","productHunt","pushed","python","qq","quinscape","quora","rProject","ravelry","react","readme","rebel","redRiver","reddit","redditAlien","redditSquare","rendact","renren","replyd","researchgate","resolving","rev","rocketchat","rockrms","safari","sass","schlix","scribd","searchengin","sellcast","sellsy","servicestack","shirtsinbulk","shopware","simplybuilt","sistrix","sith","skyatlas","skype","slack","slackHash","slideshare","snapchat","snapchatGhost","snapchatSquare","soundcloud","speakap","spotify","squarespace","stackExchange","stackOverflow","staylinked","steam","steamSquare","steamSymbol","stickerMule","strava","stripe","stripeS","studiovinari","stumbleupon","stumbleuponCircle","superpowers","supple","teamspeak","telegram","telegramPlane","tencentWeibo","themeco","themeisle","tradeFederation","trello","tripadvisor","tumblr","tumblrSquare","twitch","twitter","twitterSquare","typo3","uber","uikit","uniregistry","untappd","usb","ussunnah","vaadin","viacoin","viadeo","viadeoSquare","viber","vimeo","vimeoSquare","vimeoV","vine","vk","vnv","vuejs","weebly","weibo","weixin","whatsapp","whatsappSquare","whmcs","wikipediaW","windows","wix","wolfPackBattalion","wordpress","wordpressSimple","wpbeginner","wpexplorer","wpforms","xbox","xing","xingSquare","yCombinator","yahoo","yandex","yandexInternational","yelp","yoast","youtube","youtubeSquare","zhihu"));
+      public static ArrayList<String> brandIcons = new ArrayList<>(Arrays.asList("500px","accessible-icon","accusoft","acquisitions-incorporated","adn","adversal","affiliatetheme","algolia","alipay","amazon","amazon-pay","amilia","android","angellist","angrycreative","angular","app-store","app-store-ios","apper","apple","apple-pay","asymmetrik","audible","autoprefixer","avianex","aviato","aws","bandcamp","behance","behance-square","bimobject","bitbucket","bitcoin","bity","black-tie","blackberry","blogger","blogger-b","bluetooth","bluetooth-b","btc","buromobelexperte","buysellads","cc-amazon-pay","cc-amex","cc-apple-pay","cc-diners-club","cc-discover","cc-jcb","cc-mastercard","cc-paypal","cc-stripe","cc-visa","centercode","chrome","cloudscale","cloudsmith","cloudversify","codepen","codiepie","connectdevelop","contao","cpanel","creative-commons","creative-commons-by","creative-commons-nc","creative-commons-nc-eu","creative-commons-nc-jp","creative-commons-nd","creative-commons-pd","creative-commons-pd-alt","creative-commons-remix","creative-commons-sa","creative-commons-sampling","creative-commons-sampling-plus","creative-commons-share","creative-commons-zero","critical-role","css3","css3-alt","cuttlefish","d-and-d","dashcube","delicious","deploydog","deskpro","dev","deviantart","digg","digital-ocean","discord","discourse","dochub","docker","draft2digital","dribbble","dribbble-square","dropbox","drupal","dyalog","earlybirds","ebay","edge","elementor","ello","ember","empire","envira","erlang","ethereum","etsy","expeditedssl","facebook","facebook-f","facebook-messenger","facebook-square","fantasy-flight-games","firefox","first-order","first-order-alt","firstdraft","flickr","flipboard","fly","font-awesome","font-awesome-alt","font-awesome-flag","font-awesome-logo-full","fonticons","fonticons-fi","fort-awesome","fort-awesome-alt","forumbee","foursquare","free-code-camp","freebsd","fulcrum","galactic-republic","galactic-senate","get-pocket","gg","gg-circle","git","git-square","github","github-alt","github-square","gitkraken","gitlab","gitter","glide","glide-g","gofore","goodreads","goodreads-g","google","google-drive","google-play","google-plus","google-plus-g","google-plus-square","google-wallet","gratipay","grav","gripfire","grunt","gulp","hacker-news","hacker-news-square","hackerrank","hips","hire-a-helper","hooli","hornbill","hotjar","houzz","html5","hubspot","imdb","instagram","internet-explorer","ioxhost","itunes","itunes-note","java","jedi-order","jenkins","joget","joomla","js","js-square","jsfiddle","kaggle","keybase","keycdn","kickstarter","kickstarter-k","korvue","laravel","lastfm","lastfm-square","leanpub","less","line","linkedin","linkedin-in","linode","linux","lyft","magento","mailchimp","mandalorian","markdown","mastodon","maxcdn","medapps","medium","medium-m","medrt","meetup","megaport","microsoft","mix","mixcloud","mizuni","modx","monero","napster","neos","nimblr","nintendo-switch","node","node-js","npm","ns8","nutritionix","odnoklassniki","odnoklassniki-square","old-republic","opencart","openid","opera","optin-monster","osi","page4","pagelines","palfed","patreon","paypal","penny-arcade","periscope","phabricator","phoenix-framework","phoenix-squadron","php","pied-piper","pied-piper-alt","pied-piper-hat","pied-piper-pp","pinterest","pinterest-p","pinterest-square","playstation","product-hunt","pushed","python","qq","quinscape","quora","r-project","ravelry","react","readme","rebel","red-river","reddit","reddit-alien","reddit-square","rendact","renren","replyd","researchgate","resolving","rev","rocketchat","rockrms","safari","sass","schlix","scribd","searchengin","sellcast","sellsy","servicestack","shirtsinbulk","shopware","simplybuilt","sistrix","sith","skyatlas","skype","slack","slack-hash","slideshare","snapchat","snapchat-ghost","snapchat-square","soundcloud","speakap","spotify","squarespace","stack-exchange","stack-overflow","staylinked","steam","steam-square","steam-symbol","sticker-mule","strava","stripe","stripe-s","studiovinari","stumbleupon","stumbleupon-circle","superpowers","supple","teamspeak","telegram","telegram-plane","tencent-weibo","the-red-yeti","themeco","themeisle","trade-federation","trello","tripadvisor","tumblr","tumblr-square","twitch","twitter","twitter-square","typo3","uber","uikit","uniregistry","untappd","usb","ussunnah","vaadin","viacoin","viadeo","viadeo-square","viber","vimeo","vimeo-square","vimeo-v","vine","vk","vnv","vuejs","weebly","weibo","weixin","whatsapp","whatsapp-square","whmcs","wikipedia-w","windows","wix","wizards-of-the-coast","wolf-pack-battalion","wordpress","wordpress-simple","wpbeginner","wpexplorer","wpforms","xbox","xing","xing-square","y-combinator","yahoo","yandex","yandex-international","yelp","yoast","youtube","youtube-square","zhihu"));
       public static boolean pro = false;
       public static String version = "5.4.0";
       public String get(String name){
-        if(!allIcons.containsKey(name)) return questionCircle;
+        if(!allIcons.containsKey(name)) {
+            Pattern pattern = Pattern.compile("(?=[A-Z][a-z])");
+            Matcher matcher = pattern.matcher(name);
+            String newname = matcher.replaceAll("-").toLowerCase();
+
+            if(!allIcons.containsKey(newname)) return questionCircle;
+            return allIcons.get(newname);
+        }
         return allIcons.get(name);
       }
   
